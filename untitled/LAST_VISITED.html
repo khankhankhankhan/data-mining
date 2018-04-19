@@ -1,0 +1,4495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="https://www.4icu.org/cn/width=device-width, initial-scale=1"><meta http-equiv="X-UA-Compatible" content="https://www.4icu.org/cn/IE=edge">
+<!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<style>sup{vertical-align:baseline}hr,img{border:0}html,td,th{padding:0}body{margin:0}.col-xs-10,.col-xs-12,.col-xs-2,.dropdown-menu{float:left}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin-bottom:0}a{background-color:transparent}a:active,a:hover{outline:0}b,strong{font-weight:700}h1{margin:.6em 0}sup{font-size:75%;line-height:0;position:relative}sup{top:-.5em}img{vertical-align:middle;margin-top:0}hr{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;height:0}textarea{overflow:auto}kbd{font-size:1em}button,input,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input[type=checkbox]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0;margin-top:0}table{border-collapse:collapse;border-spacing:0}@media print{blockquote,img,tr{page-break-inside:avoid}*{background:0 0!important;color:#000!important;-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}a[href^="#"]:after,a[href^="javascript:"]:after{content:""}blockquote{border:1px solid #999}thead{display:table-header-group}img{max-width:100%!important}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}.navbar{display:none}.btn>.caret{border-top-color:#000!important}.label{border:1px solid #000}.table{border-collapse:collapse!important}.table td,.table th{background-color:#fff!important}}.btn,.form-control{background-image:none}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:transparent}body{font-family:Helvetica,Tahoma,Verdana,Sans-serif;font-size:16px;line-height:1.42857143;color:#666;background-color:#f7f7f7}button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#cd282f;text-decoration:none}a:focus,a:hover{color:#91170a}a:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}hr{margin-top:5px;margin-bottom:5px;border-top:1px solid #ddd}[role=button]{cursor:pointer}h1,h2,h3,h4,h5{font-family:HelveticaNeue2255,Tahoma,Verdana,Sans-serif;font-weight:300;line-height:1.1;color:#555}h1,h2,h3{margin-top:14px;margin-bottom:10px}h4,h5{margin-top:9px;margin-bottom:9px}h1{font-size:30px}h2{font-size:26px;text-transform:uppercase}h3{font-size:22px}h4{font-size:18px}h5{font-size:16px}p{margin:0 0 9px}.lead{margin-bottom:18px;font-size:16px;font-weight:600;line-height:2}address{line-height:1.42857143}@media (min-width:768px){.lead{font-size:17.5px;font-weight:300}}.small,small{font-size:88%}.text-left{text-align:left}.text-right{text-align:right}.text-center{text-align:center}.text-justify{text-align:justify}.text-nowrap{white-space:nowrap}.text-uppercase{text-transform:uppercase}.text-capitalize{text-transform:capitalize}.text-primary{color:#d9230f}.text-danger{color:#b94a48}table{background-color:transparent}ol,ul{margin-top:0}address{margin-bottom:18px}ol,ul{margin-bottom:9px}legend{display:block}@media (min-width:768px){.container{width:750px}}kbd{font-size:90%}caption,th{text-align:left}address{font-style:normal}kbd{font-family:Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif}kbd{padding:4px 6px;color:#fff;background-color:#000;border-radius:3px;-webkit-box-shadow:inset 0 -1px 0 rgba(0,0,0,.25);box-shadow:inset 0 -1px 0 rgba(0,0,0,.25);font-weight:400;font-size:18px}.container{margin-right:auto;margin-left:auto;padding-left:2px;padding-right:5px}@media (min-width:992px){.container{width:970px;margin-top:0}}@media (min-width:1200px){.container{width:1170px}}.row{margin-left:-15px;margin-right:-15px}.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-8,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-sm-10,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-8,.col-xs-10,.col-xs-12,.col-xs-2{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-12{width:100%}.col-xs-10{width:83.33333333%}.col-xs-2{width:16.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}@media (min-width:768px){.col-sm-10,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-8{float:left}.col-sm-12{width:100%}.col-sm-10{width:83.33333333%}.col-sm-8{width:66.66666667%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}}@media (min-width:992px){.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8{float:left}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-offset-3{margin-left:25%}}@media (min-width:1200px){.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-8{float:left}.col-lg-8{width:66.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-offset-3{margin-left:25%}}caption{padding-top:8px;padding-bottom:8px;color:#666}.table{width:100%;max-width:100%;margin-bottom:18px}.table>tbody>tr>td,.table>tbody>tr>th,.table>thead>tr>th{padding:5px;line-height:1.42857143;vertical-align:middle;border-top:1px solid #ddd}.table>thead>tr>th{vertical-align:bottom;border-bottom:2px solid #ddd}.table>thead:first-child>tr:first-child>th{border-top:0}.table-condensed>tbody>tr>td,.table-condensed>tbody>tr>th,.table-condensed>thead>tr>td,.table-condensed>thead>tr>th{padding:3px}.table-hover>tbody>tr:hover{background-color:#f9f9f9}.table-responsive{overflow-x:auto;min-height:.01%}@media screen and (max-width:767px){.table-responsive{width:100%;margin-bottom:13.5px;overflow-y:hidden;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd}.table-responsive>.table{margin-bottom:0}.table-responsive>.table>tbody>tr>td,.table-responsive>.table>thead>tr>th{white-space:nowrap}}fieldset,legend{padding:0;border:0}fieldset{margin:0;min-width:0}legend{width:100%;margin-bottom:18px;font-size:19.5px;line-height:inherit;border-bottom:1px solid #e5e5e5}label{display:inline-block;max-width:100%;margin-bottom:5px}.collapsing,.dropdown,.dropup{position:relative}input[type=checkbox]{margin:10px 0 0;line-height:normal}.form-control{font-size:14px;line-height:1.42857143;color:#333;display:block;font-weight:700}input[type=checkbox]:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}.form-control{width:100%;height:36px;padding:8px 12px;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form-control:focus{border-color:#66afe9;outline:0;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}.form-control::-moz-placeholder{color:#ccc;opacity:1}.form-control:-ms-input-placeholder{color:#ccc}.form-control::-webkit-input-placeholder{color:#ccc}.form-control::-ms-expand{border:0;background-color:transparent}textarea.form-control{height:auto}.form-group{margin-bottom:15px}.checkbox{position:relative;display:block;margin-top:10px;margin-bottom:10px}.checkbox label{min-height:18px;padding-left:20px;margin-bottom:0;font-weight:400;cursor:pointer}.checkbox input[type=checkbox]{position:absolute;margin-left:-20px;margin-top:4px}.dropdown,.dropup{position:relative}.help-block{display:block;margin-top:5px;margin-bottom:10px;color:#999}.form-horizontal .checkbox{margin-top:0;margin-bottom:0;padding-top:9px}.form-horizontal .checkbox{min-height:27px}.form-horizontal .form-group{margin-left:-15px;margin-right:-15px}@media (min-width:768px){.form-horizontal .control-label{text-align:right;margin-bottom:0;padding-top:6px}}.btn{display:inline-block;margin-bottom:5px;font-weight:400;text-align:center;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;border:1px solid transparent;white-space:normal;padding:8px 12px;font-size:13px;line-height:1.42857143;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.btn:active:focus,.btn:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}.btn:focus,.btn:hover{color:#555;text-decoration:none}.btn:active{outline:0;background-image:none;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn.disabled{cursor:not-allowed;opacity:.65;-webkit-box-shadow:none;box-shadow:none;color:#000;background-image:-webkit-linear-gradient(270deg,rgba(255,255,255,1) 100%,rgba(255,0,0,1) 100%);background-image:-moz-linear-gradient(270deg,rgba(255,255,255,1) 100%,rgba(255,0,0,1) 100%);background-image:-o-linear-gradient(270deg,rgba(255,255,255,1) 100%,rgba(255,0,0,1) 100%);background-image:linear-gradient(180deg,rgba(255,255,255,1) 100%,rgba(255,0,0,1) 100%);border-color:#bbb}.btn-danger:active,.btn-default:active,.btn-info:active,.btn-primary:active,.btn-success:active,.navbar-toggle,.open>.dropdown-toggle.btn-danger,.open>.dropdown-toggle.btn-default,.open>.dropdown-toggle.btn-info,.open>.dropdown-toggle.btn-primary,.open>.dropdown-toggle.btn-success,.open>.dropdown-toggle.btn-warning{background-image:none}.btn-default{color:#fff;background-color:#474949}.btn-default:focus{color:#fff;background-color:#e6e8e8;border-color:#080808}.btn-default:active,.btn-default:hover,.open>.dropdown-toggle.btn-default{color:#fff;background-color:#2e2f2f;border-color:#292a2a}.btn-default:active:focus,.btn-default:active:hover,.open>.dropdown-toggle.btn-default.focus,.open>.dropdown-toggle.btn-default:focus,.open>.dropdown-toggle.btn-default:hover{color:#fff;background-color:#2e2f2f;border-color:#080808}.btn-primary{color:#fff;background-color:#d9230f}.btn-primary:focus{color:#fff;background-color:#a91b0c;border-color:#621007}.btn-primary:active,.btn-primary:hover,.open>.dropdown-toggle.btn-primary{color:#fff;background-color:#a91b0c;border-color:#a01a0b}.btn-primary:active:focus,.btn-primary:active:hover,.open>.dropdown-toggle.btn-primary.focus,.open>.dropdown-toggle.btn-primary:focus,.open>.dropdown-toggle.btn-primary:hover{color:#fff;background-color:#881609;border-color:#621007}.btn-success{color:#fff;background-color:#696}.btn-success:focus{color:#fff;background-color:#5c905e;border-color:#0d1b01}.btn-success:active,.btn-success:hover,.open>.dropdown-toggle.btn-success{color:#fff;background-color:#5c905e;border-color:#2b5a05}.btn-success:active:focus,.btn-success:active:hover,.open>.dropdown-toggle.btn-success.focus,.open>.dropdown-toggle.btn-success:focus,.open>.dropdown-toggle.btn-success:hover{color:#fff;background-color:#1f4204;border-color:#0d1b01}.btn-info{color:#fff;background-color:#029acf}.btn-info:focus{color:#fff;background-color:#02749c;border-color:#013c51}.btn-info:active,.btn-info:hover,.open>.dropdown-toggle.btn-info{color:#fff;background-color:#02749c;border-color:#016d92}.btn-info:active:focus,.btn-info:active:hover,.open>.dropdown-toggle.btn-info.focus,.open>.dropdown-toggle.btn-info:focus,.open>.dropdown-toggle.btn-info:hover{color:#fff;background-color:#015a79;border-color:#013c51}.open>.dropdown-toggle.btn-warning{color:#fff;background-color:#79377c;border-color:#723475}.open>.dropdown-toggle.btn-warning.focus,.open>.dropdown-toggle.btn-warning:focus,.open>.dropdown-toggle.btn-warning:hover{color:#fff;background-color:#612c63;border-color:#452047}.btn-danger{color:#fff;background-color:#d9831f}.btn-danger:focus{color:#fff;background-color:#ac6819;border-color:#69400f}.btn-danger:active,.btn-danger:hover,.open>.dropdown-toggle.btn-danger{color:#fff;background-color:#ac6819;border-color:#a36317}.btn-danger:active:focus,.btn-danger:active:hover,.open>.dropdown-toggle.btn-danger.focus,.open>.dropdown-toggle.btn-danger:focus,.open>.dropdown-toggle.btn-danger:hover{color:#fff;background-color:#8d5514;border-color:#69400f}.btn-lg{padding:14px 16px;font-size:17px;line-height:1.3333333;border-radius:6px}.btn-sm{padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}.btn-xs{padding:1px 5px;font-size:12px;line-height:1.5;border-radius:3px}.btn-block{display:block;width:100%}.fade{opacity:0;-webkit-transition:opacity .15s linear;-o-transition:opacity .15s linear;transition:opacity .15s linear}.fade.in{opacity:1}.collapse{display:none}.collapse.in{display:block}tr.collapse.in{display:table-row}tbody.collapse.in{display:table-row-group}.collapsing{height:0;overflow:hidden;-webkit-transition-property:height,visibility;-o-transition-property:height,visibility;transition-property:height,visibility;-webkit-transition-duration:.35s;-o-transition-duration:.35s;transition-duration:.35s;-webkit-transition-timing-function:ease;-o-transition-timing-function:ease;transition-timing-function:ease}.caret{display:inline-block;width:0;height:0;margin-left:2px;vertical-align:middle;border-top:8px dashed;border-right:8px solid transparent;border-left:8px solid transparent}.dropdown-toggle:focus{outline:0}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;min-width:160px;padding:5px 0;margin:2px 0 0;list-style:none;font-size:13px;text-align:left;background-color:#fff;border:1px solid #ccc;border:1px solid rgba(0,0,0,.15);border-radius:4px;-webkit-box-shadow:0 6px 12px rgba(0,0,0,.175);box-shadow:0 6px 12px rgba(0,0,0,.175);-webkit-background-clip:padding-box;background-clip:padding-box}.dropdown-menu>li>a{display:block;padding:3px 20px;line-height:1.42857143;white-space:nowrap}.dropdown-menu .divider{height:1px;margin:8px 0;overflow:hidden;background-color:#e5e5e5}.dropdown-menu>li>a{clear:both;font-weight:400;color:#444}.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover{text-decoration:none;color:#fff;background-color:#d9230f}.open>.dropdown-menu{display:block}.open>a{outline:0}.dropup .caret{border-top:0;border-bottom:8px dashed;content:""}@media (min-width:768px){.navbar-right .dropdown-menu{left:auto;right:5px}}.btn-group{position:relative;display:inline-block;vertical-align:middle}.btn-group>.btn{position:relative;float:left}.btn-group>.btn:active,.btn-group>.btn:focus,.btn-group>.btn:hover{z-index:2}.btn .caret,.btn-group>.btn:first-child{margin-left:0}.btn-group .dropdown-toggle:active,.btn-group.open .dropdown-toggle{outline:0}.btn-group.open .dropdown-toggle{-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn-group.open .dropdown-toggle.btn-link{-webkit-box-shadow:none;box-shadow:none}.nav>li,.nav>li>a{display:block;position:relative}.nav{margin-bottom:0;padding-left:0;list-style:none}.nav>li>a{padding:10px 15px}.nav>li>a:focus,.nav>li>a:hover{text-decoration:none;background-color:#ddd}.nav .open>a,.nav .open>a:focus,.nav .open>a:hover{background-color:#ddd;border-color:#d9230f}.navbar{position:relative;min-height:50px;margin-bottom:18px;border-style:solid;border-width:1px}.navbar-collapse{overflow-x:visible;padding-right:15px;padding-left:15px;border-top:1px solid transparent;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.1);box-shadow:inset 0 1px 0 rgba(255,255,255,.1);-webkit-overflow-scrolling:touch}.navbar-collapse.in{overflow-y:auto}@media (min-width:768px){.navbar{border-radius:10px}.navbar-header{float:left}.navbar-collapse{width:auto;border-top:0;-webkit-box-shadow:none;box-shadow:none}.navbar-collapse.collapse{display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important}.navbar-collapse.in{overflow-y:visible}}.embed-responsive,.modal,.modal-open{overflow:hidden}.container>.navbar-collapse,.container>.navbar-header{margin-right:-15px;margin-left:-15px}.navbar-brand{float:left;padding:11px 15px;font-size:14px;line-height:18px;height:40px}.navbar-brand:focus,.navbar-brand:hover{text-decoration:none}.navbar-brand>img{display:block}@media (min-width:768px){.container>.navbar-collapse,.container>.navbar-header{margin-right:0;margin-left:0}.navbar>.container .navbar-brand{margin-left:-15px}}.navbar-toggle{position:relative;float:right;margin-right:15px;padding:9px 10px;margin-top:3px;margin-bottom:3px;background-color:transparent;border:1px solid transparent;border-radius:4px}.navbar-toggle:focus{outline:0}.navbar-toggle .icon-bar{display:block;width:22px;height:2px;border-radius:1px}.navbar-toggle .icon-bar+.icon-bar{margin-top:4px}.navbar-nav{margin:5.5px -15px}.navbar-nav>li>a{padding-top:10px;padding-bottom:10px;line-height:30px}@media (max-width:767px){.navbar-nav .open .dropdown-menu{position:static;float:none;width:auto;margin-top:0;background-color:transparent;border:0;-webkit-box-shadow:none;box-shadow:none}.navbar-nav .open .dropdown-menu .dropdown-header,.navbar-nav .open .dropdown-menu>li>a{padding:5px 15px 5px 25px}.navbar-nav .open .dropdown-menu>li>a{line-height:18px}.navbar-nav .open .dropdown-menu>li>a:focus,.navbar-nav .open .dropdown-menu>li>a:hover{background-image:none}}@media (min-width:768px){.navbar-toggle{display:none}.navbar-nav{float:left;margin:0}.navbar-nav>li{float:left}.navbar-nav>li>a{padding-top:11px;padding-bottom:11px}}.breadcrumb>li,.pagination{display:inline-block}.btn .badge,.btn .label{top:-1px;position:relative}.navbar-nav>li>.dropdown-menu{margin-top:0;border-top-right-radius:0;border-top-left-radius:0}.navbar-btn{margin-top:2px;margin-bottom:2px}.navbar-btn.btn-sm{margin-top:5px;margin-bottom:5px}.navbar-btn.btn-xs{margin-top:9px;margin-bottom:9px}.navbar-text{margin-top:11px;margin-bottom:11px}@media (min-width:768px){.navbar-right{float:right!important;margin-right:5px}}.navbar-default{background-color:#fff;border-color:#ccc}.navbar-default .navbar-brand{color:#777}.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{color:#d9230f;background-color:transparent}.navbar-default .navbar-nav>li>a{color:#777}.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover{color:#d9230f;background-color:transparent}.navbar-default .navbar-toggle{border-color:#ddd}.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover{background-color:#ddd}.navbar-default .navbar-toggle .icon-bar{background-color:#696}.navbar-default .navbar-collapse{border-color:#ccc}.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:focus,.navbar-default .navbar-nav>.open>a:hover{background-color:transparent;color:#d9230f}@media (max-width:767px){.navbar-default .navbar-nav .open .dropdown-menu>li>a{color:#777}.navbar-default .navbar-nav .open .dropdown-menu>.active>a,.navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,.navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{color:#d9230f;background-color:transparent}.navbar-default .navbar-nav .open .dropdown-menu>.disabled>a,.navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:focus,.navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover{color:#444;background-color:transparent}}.breadcrumb{margin-bottom:15px;list-style:none;background-color:transparent;border-radius:4px;padding:0 8px}.breadcrumb>li+li:before{content:"/\00a0";padding:0 5px;color:#ccc}.breadcrumb>.active{color:grey}.pagination{padding-left:0;margin:18px 0;border-radius:4px}.pager li,.pagination>li{display:inline}.pagination>li>a{position:relative;float:left;padding:8px 12px;line-height:1.42857143;text-decoration:none;color:#444;background-color:#fff;border:1px solid #ddd;margin-left:-1px}.pagination>li:first-child>a{margin-left:0;border-bottom-left-radius:4px;border-top-left-radius:4px}.pagination>li:last-child>a{border-bottom-right-radius:4px;border-top-right-radius:4px}.pagination>li>a:focus,.pagination>li>a:hover{z-index:2;color:#fff;background-color:#d9230f;border-color:#d9230f}.pagination-sm>li>a{padding:5px 10px;font-size:12px;line-height:1.5}.label{line-height:1;white-space:nowrap;text-align:center;font-weight:700}.pagination-sm>li:first-child>a{border-bottom-left-radius:3px;border-top-left-radius:3px}.pagination-sm>li:last-child>a{border-bottom-right-radius:3px;border-top-right-radius:3px}.pager{padding-left:0;margin:18px 0;list-style:none;text-align:center}.close{float:right}.label{display:inline;padding:.2em .6em .3em;font-size:75%;color:#fff;border-radius:.25em}.label-primary{background-color:#d9230f}.label-info{background-color:#029acf}.label-danger{background-color:#d9831f}.list-group{margin-bottom:2px;padding-left:0}.list-group-item{position:relative;display:block;margin-bottom:-1px;background-color:#fff;border:1px solid #fff;padding:5px 15px}.list-group-item:first-child{border-top-right-radius:4px;border-top-left-radius:4px}.list-group-item:last-child{margin-bottom:0;border-bottom-right-radius:4px;border-bottom-left-radius:4px;color:#555}a.list-group-item{color:#555}a.list-group-item:focus,a.list-group-item:hover{text-decoration:none;color:#555;background-color:#f5f5f5}.list-group-item-heading{margin-top:0;margin-bottom:5px}.panel{margin-bottom:15px;background-color:#fff;border:1px solid transparent;border-radius:10px;-webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);box-shadow:0 1px 1px rgba(0,0,0,.05)}.panel-body{padding:15px}.panel-heading{border-bottom:1px solid transparent;border-top-right-radius:3px;border-top-left-radius:3px;padding:0 12px 8px}.panel-footer{padding:10px 15px;background-color:#fdfdfd;border-top:1px solid #ddd;border-bottom-right-radius:10px;border-bottom-left-radius:10px}.panel-default{border-color:#ccc}.panel-default>.panel-heading{color:#444;border-color:#ddd}.embed-responsive{position:relative;display:block;height:0;padding:0}.embed-responsive .embed-responsive-item,.embed-responsive embed,.embed-responsive iframe,.embed-responsive object,.embed-responsive video{position:absolute;top:0;left:0;bottom:0;height:100%;width:100%;border:0}.embed-responsive-16by9{padding-bottom:56.25%}.embed-responsive-4by3{padding-bottom:75%}.close{font-size:19.5px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:.2;filter:alpha(opacity=20)}.close:focus,.close:hover{color:#000;text-decoration:none;cursor:pointer;opacity:.65}button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance:none}.modal{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;-webkit-overflow-scrolling:touch;outline:0}.modal.fade .modal-dialog{-webkit-transform:translate(0,-25%);-ms-transform:translate(0,-25%);-o-transform:translate(0,-25%);transform:translate(0,-25%);-webkit-transition:-webkit-transform .3s ease-out;-o-transition:-o-transform .3s ease-out;transition:transform .3s ease-out}.modal.in .modal-dialog{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);-o-transform:translate(0,0);transform:translate(0,0)}.modal-open .modal{overflow-x:hidden;overflow-y:auto}.modal-dialog{position:relative;width:auto;margin:10px}.modal-content{position:relative;background-color:#fff;border:1px solid #999;border:1px solid rgba(0,0,0,.2);border-radius:6px;-webkit-box-shadow:0 3px 9px rgba(0,0,0,.5);box-shadow:0 3px 9px rgba(0,0,0,.5);-webkit-background-clip:padding-box;background-clip:padding-box;outline:0}.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000}.modal-backdrop.fade{opacity:0}.modal-backdrop.in{opacity:.5}.modal-header{padding:15px;border-bottom:1px solid #e5e5e5}.modal-header .close{margin-top:-2px}.modal-title{margin:0;line-height:1.42857143}.modal-body{position:relative;padding:20px}.modal-footer{padding:20px;text-align:right;border-top:1px solid #e5e5e5}.modal-footer .btn+.btn{margin-left:5px;margin-bottom:0}.modal-footer .btn-group .btn+.btn{margin-left:-1px}.modal-footer .btn-block+.btn-block{margin-left:0}.modal-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}@media (min-width:768px){.modal-dialog{width:600px;margin:30px auto}.modal-content{-webkit-box-shadow:0 5px 15px rgba(0,0,0,.5);box-shadow:0 5px 15px rgba(0,0,0,.5)}.modal-sm{width:300px}}@media (min-width:992px){.modal-lg{width:900px}}.container:after,.container:before,.form-horizontal .form-group:after,.form-horizontal .form-group:before,.modal-footer:after,.modal-footer:before,.modal-header:after,.modal-header:before,.nav:after,.nav:before,.navbar-collapse:after,.navbar-collapse:before,.navbar-header:after,.navbar-header:before,.navbar:after,.navbar:before,.pager:after,.pager:before,.panel-body:after,.panel-body:before,.row:after,.row:before{content:" ";display:table}.container:after,.form-horizontal .form-group:after,.modal-footer:after,.modal-header:after,.nav:after,.navbar-collapse:after,.navbar-header:after,.navbar:after,.pager:after,.panel-body:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right!important;margin-left:10px}.pull-left{float:left!important;margin-right:10px;margin-top:-10px}.visible-xs,.visible-xs-block,.visible-xs-inline{display:none!important}@media (max-width:767px){.visible-xs{display:block!important}.visible-xs-block{display:block!important}.visible-xs-inline{display:inline!important}}@media (max-width:767px){.hidden-xs{display:none!important}}@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none!important}}.btn{font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif}.btn-default,.btn-default:hover{background-image:-webkit-linear-gradient(#4f5151,#474949 6%,#3f4141);background-image:-o-linear-gradient(#4f5151,#474949 6%,#3f4141);background-image:-webkit-gradient(linear,left top,left bottom,from(#4f5151),color-stop(6%,#474949),to(#3f4141));background-image:linear-gradient(#4f5151,#474949 6%,#3f4141);background-repeat:no-repeat;-webkit-filter:none;filter:none;border:1px solid #2e2f2f}.btn-primary,.btn-primary:hover{background-image:-webkit-linear-gradient(#e72510,#d9230f 6%,#cb210e);background-image:-o-linear-gradient(#e72510,#d9230f 6%,#cb210e);background-image:-webkit-gradient(linear,left top,left bottom,from(#e72510),color-stop(6%,#d9230f),to(#cb210e));background-image:linear-gradient(#e72510,#d9230f 6%,#cb210e);background-repeat:no-repeat;-webkit-filter:none;filter:none;border:1px solid #a91b0c}.btn-success,.btn-success:hover{background-image:-webkit-linear-gradient(#4da309,#696 6%,#3f8507);background-image:-o-linear-gradient(#4da309,#696 6%,#3f8507);background-image:-webkit-gradient(linear,left top,left bottom,from(#4da309),color-stop(6%,#696),to(#3f8507));background-image:linear-gradient(#4da309,#696 6%,#3f8507);background-repeat:no-repeat;-webkit-filter:none;filter:none;border:1px solid #5c905e}.btn-info,.btn-info:hover{background-image:-webkit-linear-gradient(#02a5de,#029acf 6%,#028fc0);background-image:-o-linear-gradient(#02a5de,#029acf 6%,#028fc0);background-image:-webkit-gradient(linear,left top,left bottom,from(#02a5de),color-stop(6%,#029acf),to(#028fc0));background-image:linear-gradient(#02a5de,#029acf 6%,#028fc0);background-repeat:no-repeat;-webkit-filter:none;filter:none;border:1px solid #02749c}.btn-danger,.btn-danger:hover{background-image:-webkit-linear-gradient(#e08b27,#d9831f 6%,#cc7b1d);background-image:-o-linear-gradient(#e08b27,#d9831f 6%,#cc7b1d);background-image:-webkit-gradient(linear,left top,left bottom,from(#e08b27),color-stop(6%,#d9831f),to(#cc7b1d));background-image:linear-gradient(#e08b27,#d9831f 6%,#cc7b1d);background-repeat:no-repeat;-webkit-filter:none;filter:none;border:1px solid #ac6819}body,label{font-weight:400}th{color:#333;font-weight:600}legend{color:#444}.scrollable-menu{height:auto;max-height:300px;overflow-x:hidden}.opaque{opacity:.5;position:relative;right:0}.opaque:hover{opacity:1}table tr kbd{opacity:.5;vertical-align:top}a:hover img,table tr:hover img,table tr:hover kbd{opacity:1}@media(max-width:480px){h1{font-size:25px}h2{font-size:20px}}.borderless td,.borderless th{border:none!important}.img-responsive{display:block;max-width:100%;height:auto}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-2473789519331063",
+          enable_page_level_ads: true
+     });
+</script>
+<title>A-Z list of Chinese Universities & Colleges</title>
+<meta name="description" content="https://www.4icu.org/cn/See the most comprehensive alphabetical list of accredited Colleges and Universities in China.">
+</head>
+<body>
+<div class="container"> <div class="navbar navbar-default"><div class="container"><div class="navbar-header"><a href="http://www.4icu.org" class="navbar-brand"><img src="https://www.4icu.org/i/uniRank-logo.png" width="150" height="30" alt="uniRank.org World Universities Rankings & Reviews"></a><button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false" aria-label="Toggle navigation"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button></div><div class="navbar-collapse collapse" id="navbar-main"><ul class="nav navbar-nav"><li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="https://www.4icu.org/cn/chinese-universities.htm#" id="UniversityWebRankings">University Rankings<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="https://www.4icu.org/top-universities-world/">Top 200 Universities in the World</a></li><li role="separator" class="divider"></li><li><a href="https://www.4icu.org/top-universities-north-america/">Top 200 Universities in North America</a> <a href="https://www.4icu.org/top-universities-latin-america/">Top 200 Universities in Latin America</a> <a href="https://www.4icu.org/top-universities-europe/">Top 200 Universities in Europe</a> <a href="https://www.4icu.org/top-universities-africa/">Top 200 Universities in Africa</a> <a href="https://www.4icu.org/top-universities-asia/">Top 200 Universities in Asia</a> <a href="https://www.4icu.org/top-universities-oceania/">Top 50 Universities in Oceania</a></li><li role="separator" class="divider"></li><li><a href="https://www.4icu.org/top-english-speaking-universities/">Top 200 English-speaking Universities</a> <a href="https://www.4icu.org/top-spanish-speaking-universities/">Top 200 Spanish-speaking Universities</a> <a href="https://www.4icu.org/top-arabic-speaking-universities/">Top 200 Arabic-speaking Universities</a></li><li role="separator" class="divider"></li><li><a href="https://www.4icu.org/top-universities-facebook/">Top 200 Universities on Facebook</a> <a href="https://www.4icu.org/top-universities-twitter/">Top 200 Universities on Twitter</a></li></ul></li><li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="https://www.4icu.org/cn/chinese-universities.htm#" id="UniversitiesByCountry">Universities by Country<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="https://www.4icu.org/North-America/">Universities in North America</a> <a href="https://www.4icu.org/Latin-America/">Universities in Latin America</a> <a href="https://www.4icu.org/Europe/">Universities in Europe</a> <a href="https://www.4icu.org/Africa/">Universities in Africa</a> <a href="https://www.4icu.org/Asia/">Universities in Asia</a> <a href="https://www.4icu.org/Oceania/">Universities in Oceania</a></li></ul></li><li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="https://www.4icu.org/cn/chinese-universities.htm#" id="OtherHELists">More<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="https://www.4icu.org/opencourseware/">Online courses by OEC Universities</a> <a href="https://www.4icu.org/itunesu/">Online courses by iTunes U Universities</a></li><li role="separator" class="divider"></li><li><a href="https://www.4icu.org/institutions/">Higher Education-related Organizations</a> <a href="https://www.4icu.org/religious/">Religious Colleges and Universities</a> <a href="https://www.4icu.org/reviews/index2.htm" rel="nofollow">A-Z list of World Universities</a></li><li role="separator" class="divider"></li><li><a href="https://www.4icu.org/facebook/" rel="nofollow">Universities on Facebook</a> <a href="https://www.4icu.org/twitter/">Universities on Twitter</a><a href="https://www.4icu.org/linkedin/">Universities on Linkedin</a> <a href="https://www.4icu.org/flickr/">Universities on Flickr / Instagram</a> <a href="https://www.4icu.org/youtube/">Universities on Youtube / Vimeo</a></li></ul></li></ul><ul class="nav navbar-nav navbar-right"><li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="https://www.4icu.org/cn/chinese-universities.htm#" id="About">About<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="https://www.4icu.org/about/" rel="nofollow">About Us</a> <a href="https://www.4icu.org/about/index.htm#ranking">Ranking Methodology</a> <a href="https://www.4icu.org/contact/" rel="nofollow">Contact Us</a> <a href="https://www.4icu.org/advertise/" rel="nofollow">Advertise</a> <a href="https://www.4icu.org/privacy/" rel="nofollow">Privacy</a> <a href="https://www.4icu.org/search/" rel="nofollow">Site search</a></li></ul></li></ul></div></div></div>
+
+<div class="hidden-xs">
+<picture>
+<source media="(max-width: 767px)" srcset="/i/bg.gif">
+<a href="https://www.4icu.org/cn/"><img class="pull-right opaque" src="https://www.4icu.org/i/flags/China.png" width="48" height="48" alt="China University Rankings" style="position:relative;top:-16px;left:-6px"></a></source></picture>
+</div>
+<ol class="breadcrumb small hidden-xs" itemscope itemtype="http://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"> <a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="http://www.4icu.org/"><span itemprop="name">uniRank</span></a>
+</li><meta itemprop="position" content="https://www.4icu.org/cn/1">
+ <li class="hidden-xs" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="https://www.4icu.org/Asia/"><span itemprop="name">Asia</span></a>
+</li><meta itemprop="position" content="https://www.4icu.org/cn/2">
+ <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="https://www.4icu.org/cn/index.html"><span itemprop="name">China</span></a>
+</li><meta itemprop="position" content="https://www.4icu.org/cn/3">
+ <li class="active" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.4icu.org/cn/chinese-universities.htm#A-Z-universities-in-cn" itemscope itemtype="http://schema.org/Thing" itemprop="item"><span itemprop="name">A-Z Universities</span></a>
+</li><meta itemprop="position" content="https://www.4icu.org/cn/4">
+
+</ol>
+<div class="panel panel-default text-center">
+<div class="panel-body" id="A-Z-universities-in-cn">
+<h1>A-Z Universities in China</h1>
+<h2 class="hidden-xs text-capitalize">by Alphabetical Order <!-- <sup><span class="label label-primary">New</span></sup>--></h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-5 col-lg-4">
+<div class="panel panel-default">
+<div class="panel-body"> <div class="text-center" style="min-width:336px;vertical-align: middle">
+<style>
+.ad_slot_1 {width:300px;height:250px}
+@media (min-width:414px) {.ad_slot_1 {width:336px;height:280px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 4icu.org-Level3_Top -->
+<ins class="adsbygoogle ad_slot_1" style="display:inline-block" data-ad-client="ca-pub-2473789519331063" data-ad-slot="1822003836"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+ </div>
+</div>
+</div>
+<div class="col-md-7 col-lg-8">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="text-uppercase">Introduction</h3>
+</div>
+<div class="panel-body">
+<p class="text-justify">This uniRank page includes a comprehensive <strong>alphabetical list of Chinese Universities</strong> and other higher-education institutions meeting the following uniRank selection criteria:
+<ul>
+<li>being accredited, licensed and/or chartered by the appropriate <a href="https://www.4icu.org/institutions/cn/">Chinese higher education-related organization</a></li> <li>offering at least four-year undergraduate degrees (Bachelor degrees) and/or postgraduate degrees (Master or Doctoral degrees)</li> <li>delivering courses predominantly in a traditional face-to-face, non-distance education format</li>
+</ul>
+
+</p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3><img src="https://www.4icu.org/i/A-Z.png" width="42" height="42" alt="A-Z list of Chinese Universities & Colleges" class="pull-left"><span class="hidden-xs"> List of Chinese Universities</span><span class="visible-xs-inline"> A-Z Universities </span></h3>
+</div>
+<div class="panel-body">
+<div class="table-responsive">
+<table class="table table-hover">
+<thead>
+<tr>
+<th scope="col" class="text-nowrap" style="width:30px"><span class="visible-xs-block">#<a href="https://www.4icu.org/cn/"><span class="caret"></span></a></span><span class="hidden-xs">Rank<a href="https://www.4icu.org/cn/"><span class="caret"></span></a></span></th>
+<th scope="col">University<a href="https://www.4icu.org/cn/chinese-universities.htm"><span class="caret"></span></a></th>
+<th scope="col"> <span class="visible-xs-block">Town <a href="https://www.4icu.org/cn/universities-china.htm"><span class="caret"></span></a></span> <span class="hidden-xs">Location<a href="https://www.4icu.org/cn/universities-china.htm"><span class="caret"></span></a></span> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><kbd>300</kbd></td>
+<td><a href="https://www.4icu.org/reviews/785.htm">Agricultural University of Hebei</a></td>
+<td>Baoding</td>
+</tr>
+<tr>
+<td><kbd>158</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8558.htm">Anhui Agricultural University</a></td>
+<td>Hefei</td>
+</tr>
+<tr>
+<td><kbd>794</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15301.htm">Anhui Foreign Languages University</a></td>
+<td>Hefei</td>
+</tr>
+<tr>
+<td><kbd>309</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12656.htm">Anhui Jianzhu University</a></td>
+<td>Hefei</td>
+</tr>
+<tr>
+<td><kbd>254</kbd></td>
+<td><a href="https://www.4icu.org/reviews/693.htm">Anhui Medical University</a></td>
+<td>Hefei</td>
+</tr>
+<tr>
+<td><kbd>196</kbd></td>
+<td><a href="https://www.4icu.org/reviews/694.htm">Anhui Normal University</a></td>
+<td>Wuhu</td>
+</tr>
+<tr>
+<td><kbd>365</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12655.htm">Anhui Polytechnic University</a></td>
+<td>Wuhu</td>
+</tr>
+<tr>
+<td><kbd>647</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12654.htm">Anhui Sanlian University</a></td>
+<td>Hefei</td>
+</tr>
+<tr>
+<td><kbd>531</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12663.htm">Anhui Science and Technology University</a></td>
+<td>Chuzhou</td>
+</tr>
+<tr>
+<td><kbd>76</kbd></td>
+<td><a href="https://www.4icu.org/reviews/695.htm">Anhui University</a></td>
+<td>Hefei</td>
+</tr>
+<tr>
+<td><kbd>348</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12657.htm">Anhui University of Chinese Medicine</a></td>
+<td>Hefei</td>
+</tr>
+<tr>
+<td><kbd>272</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12653.htm">Anhui University of Finance and Economics</a></td>
+<td>Bengbu</td>
+</tr>
+<tr>
+<td><kbd>205</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8560.htm">Anhui University of Science and Technology</a></td>
+<td>Huainan</td>
+</tr>
+<tr>
+<td><kbd>223</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8561.htm">Anhui University of Technology</a></td>
+<td>Ma'anshan</td>
+</tr>
+<tr>
+<td><kbd>742</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15302.htm">Anhui Wonder University of Information Engineering</a></td>
+<td>Hefei</td>
+</tr>
+<tr>
+<td><kbd>652</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12674.htm">Anhui Xinhua University</a></td>
+<td>Hefei</td>
+</tr>
+<tr>
+<td><kbd>727</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12876.htm">Ankang University</a></td>
+<td>Ankang</td>
+</tr>
+<tr>
+<td><kbd>465</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12662.htm">Anqing Normal University</a></td>
+<td>Anqing</td>
+</tr>
+<tr>
+<td><kbd>604</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12562.htm">Anshan Normal University</a></td>
+<td>Anshan</td>
+</tr>
+<tr>
+<td><kbd>707</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12841.htm">Anshun University</a></td>
+<td>Anshun</td>
+</tr>
+<tr>
+<td><kbd>606</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12729.htm">Anyang Institute of Technology</a></td>
+<td>Anyang</td>
+</tr>
+<tr>
+<td><kbd>482</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12738.htm">Anyang Normal University</a></td>
+<td>Anyang</td>
+</tr>
+<tr>
+<td><kbd>352</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12582.htm">Baicheng Normal University</a></td>
+<td>Baicheng</td>
+</tr>
+<tr>
+<td><kbd>653</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12800.htm">Baise University</a></td>
+<td>Baise</td>
+</tr>
+<tr>
+<td><kbd>757</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12506.htm">Baoding University</a></td>
+<td>Baoding</td>
+</tr>
+<tr>
+<td><kbd>452</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12870.htm">Baoji University of Arts and Sciences</a></td>
+<td>Baoji</td>
+</tr>
+<tr>
+<td><kbd>718</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12853.htm">Baoshan University</a></td>
+<td>Baoshan</td>
+</tr>
+<tr>
+<td><kbd>768</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15304.htm">Beihai College of Art and Design</a></td>
+<td>Beihai</td>
+</tr>
+<tr>
+<td><kbd>77</kbd></td>
+<td><a href="https://www.4icu.org/reviews/706.htm">Beihang University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>492</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8686.htm">Beihua University</a></td>
+<td>Jilin</td>
+</tr>
+<tr>
+<td><kbd>357</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12462.htm">Beijing City University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>219</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12463.htm">Beijing Dance Academy</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>587</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12464.htm">Beijing Electronic Science and Technology Institute</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>131</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11873.htm">Beijing Film Academy</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>32</kbd></td>
+<td><a href="https://www.4icu.org/reviews/696.htm">Beijing Foreign Studies University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>74</kbd></td>
+<td><a href="https://www.4icu.org/reviews/697.htm">Beijing Forestry University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>752</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15305.htm">Beijing Geely University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>394</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12465.htm">Beijing Information Science and Technology University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>423</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12466.htm">Beijing Institute of Fashion Technology</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>275</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12467.htm">Beijing Institute of Graphic Communication</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>231</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12468.htm">Beijing Institute of Petrochemical Technology</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>16</kbd></td>
+<td><a href="https://www.4icu.org/reviews/698.htm">Beijing Institute of Technology</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>126</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8582.htm">Beijing International Studies University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>14</kbd></td>
+<td><a href="https://www.4icu.org/reviews/859.htm">Beijing Jiaotong University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>78</kbd></td>
+<td><a href="https://www.4icu.org/reviews/699.htm">Beijing Language and Culture University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>44</kbd></td>
+<td><a href="https://www.4icu.org/reviews/702.htm">Beijing Normal University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>234</kbd></td>
+<td><a href="https://www.4icu.org/reviews/709.htm">Beijing Sport University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>212</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8572.htm">Beijing Technology and Business University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>251</kbd></td>
+<td><a href="https://www.4icu.org/reviews/705.htm">Beijing Union University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>410</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12469.htm">Beijing University of Agriculture</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>66</kbd></td>
+<td><a href="https://www.4icu.org/reviews/707.htm">Beijing University of Chemical Technology</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>255</kbd></td>
+<td><a href="https://www.4icu.org/reviews/708.htm">Beijing University of Chinese Medicine</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>233</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12470.htm">Beijing University of Civil Engineering and Architecture</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>20</kbd></td>
+<td><a href="https://www.4icu.org/reviews/710.htm">Beijing University of Posts and Telecommunications</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>94</kbd></td>
+<td><a href="https://www.4icu.org/reviews/704.htm">Beijing University of Technology</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>558</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12471.htm">Beijing Wuzi University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>407</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12659.htm">Bengbu Medical College</a></td>
+<td>Bengbu</td>
+</tr>
+<tr>
+<td><kbd>675</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12669.htm">Bengbu University</a></td>
+<td>Bengbu</td>
+</tr>
+<tr>
+<td><kbd>767</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12832.htm">Bijie University</a></td>
+<td>Bijie</td>
+</tr>
+<tr>
+<td><kbd>457</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12704.htm">Binzhou Medical University</a></td>
+<td>Binzhou</td>
+</tr>
+<tr>
+<td><kbd>460</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12715.htm">Binzhou University</a></td>
+<td>Binzhou</td>
+</tr>
+<tr>
+<td><kbd>515</kbd></td>
+<td><a href="https://www.4icu.org/reviews/824.htm">Bohai University</a></td>
+<td>Jinzhou</td>
+</tr>
+<tr>
+<td><kbd>790</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15308.htm">Cangzhou Normal University</a></td>
+<td>Cangzhou</td>
+</tr>
+<tr>
+<td><kbd>322</kbd></td>
+<td><a href="https://www.4icu.org/reviews/714.htm">Capital Medical University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>105</kbd></td>
+<td><a href="https://www.4icu.org/reviews/712.htm">Capital Normal University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>153</kbd></td>
+<td><a href="https://www.4icu.org/reviews/713.htm">Capital University of Economics and Business</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>487</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11872.htm">Capital University of Physical Education and Sports</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>45</kbd></td>
+<td><a href="https://www.4icu.org/reviews/715.htm">Central China Normal University</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>137</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11871.htm">Central Conservatory of Music</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>41</kbd></td>
+<td><a href="https://www.4icu.org/reviews/718.htm">Central South University</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>555</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8653.htm">Central South University of Forestry and Technology</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>96</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8576.htm">Central University of Finance and Economics</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>73</kbd></td>
+<td><a href="https://www.4icu.org/reviews/959.htm">Chang'an University</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>705</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15309.htm">Changchun Guanghua University</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>477</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12575.htm">Changchun Institute of Technology</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>533</kbd></td>
+<td><a href="https://www.4icu.org/reviews/720.htm">Changchun Normal University</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>540</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12570.htm">Changchun University</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>598</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12573.htm">Changchun University of Chinese Medicine</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>169</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12571.htm">Changchun University of Science and Technology</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>160</kbd></td>
+<td><a href="https://www.4icu.org/reviews/721.htm">Changchun University of Technology</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>772</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12897.htm">Changji University</a></td>
+<td>Changji</td>
+</tr>
+<tr>
+<td><kbd>694</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12769.htm">Changsha Medical University</a></td>
+<td>Hengyang</td>
+</tr>
+<tr>
+<td><kbd>689</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15310.htm">Changsha Normal University</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>504</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8654.htm">Changsha University</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>339</kbd></td>
+<td><a href="https://www.4icu.org/reviews/722.htm">Changsha University of Science and Technology</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>556</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12636.htm">Changshu Institute of Technology</a></td>
+<td>Suzhou</td>
+</tr>
+<tr>
+<td><kbd>659</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12516.htm">Changzhi Medical College</a></td>
+<td>Changzhi</td>
+</tr>
+<tr>
+<td><kbd>782</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12521.htm">Changzhi University</a></td>
+<td>Changzhi</td>
+</tr>
+<tr>
+<td><kbd>419</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12623.htm">Changzhou Institute of Technology</a></td>
+<td>Changzhou</td>
+</tr>
+<tr>
+<td><kbd>400</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8675.htm">Changzhou University</a></td>
+<td>Changzhou</td>
+</tr>
+<tr>
+<td><kbd>751</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12673.htm">Chaohu University</a></td>
+<td>Chaohu</td>
+</tr>
+<tr>
+<td><kbd>569</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12497.htm">Chengde Medical University</a></td>
+<td>Chengde</td>
+</tr>
+<tr>
+<td><kbd>802</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15311.htm">Chengdu College of Arts and Sciences</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>673</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12818.htm">Chengdu Medical College</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>765</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15312.htm">Chengdu Neusoft University</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>780</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15313.htm">Chengdu Normal University</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>518</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12822.htm">Chengdu Sport University</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>186</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12827.htm">Chengdu University</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>154</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8737.htm">Chengdu University of Information Technology</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>193</kbd></td>
+<td><a href="https://www.4icu.org/reviews/724.htm">Chengdu University of Technology</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>301</kbd></td>
+<td><a href="https://www.4icu.org/reviews/725.htm">Chengdu University of Traditional Chinese Medicine</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>576</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12526.htm">Chifeng University</a></td>
+<td>Chifeng</td>
+</tr>
+<tr>
+<td><kbd>267</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12651.htm">China Academy of Art</a></td>
+<td>Hangzhou ...</td>
+</tr>
+<tr>
+<td><kbd>54</kbd></td>
+<td><a href="https://www.4icu.org/reviews/726.htm">China Agricultural University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>181</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12472.htm">China Central Academy of Fine Arts</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>359</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12473.htm">China Conservatory of Music</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>183</kbd></td>
+<td><a href="https://www.4icu.org/reviews/882.htm">China Europe International Business School</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>326</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11869.htm">China Foreign Affairs University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>375</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12474.htm">China Institute of Industrial Relations</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>162</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12309.htm">China Jiliang University</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>211</kbd></td>
+<td><a href="https://www.4icu.org/reviews/728.htm">China Medical University</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>173</kbd></td>
+<td><a href="https://www.4icu.org/reviews/729.htm">China Pharmaceutical University</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>236</kbd></td>
+<td><a href="https://www.4icu.org/reviews/944.htm">China Three Gorges University</a></td>
+<td>Yichang</td>
+</tr>
+<tr>
+<td><kbd>81</kbd></td>
+<td><a href="https://www.4icu.org/reviews/731.htm">China University of Geosciences Beijing</a></td>
+<td>Beijing ...</td>
+</tr>
+<tr>
+<td><kbd>72</kbd></td>
+<td><a href="https://www.4icu.org/reviews/732.htm">China University of Geosciences Wuhan</a></td>
+<td>Wuhan ...</td>
+</tr>
+<tr>
+<td><kbd>65</kbd></td>
+<td><a href="https://www.4icu.org/reviews/734.htm">China University of Mining and Technology</a></td>
+<td>Xuzhou ...</td>
+</tr>
+<tr>
+<td><kbd>24</kbd></td>
+<td><a href="https://www.4icu.org/reviews/946.htm">China University of Petroleum</a></td>
+<td>Beijing ...</td>
+</tr>
+<tr>
+<td><kbd>113</kbd></td>
+<td><a href="https://www.4icu.org/reviews/735.htm">China University of Political Science and Law</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>320</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12812.htm">China West Normal University</a></td>
+<td>Nanchong</td>
+</tr>
+<tr>
+<td><kbd>433</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12475.htm">China Women's University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>218</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12476.htm">China Youth University for Political Sciences</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>704</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12666.htm">Chizhou University</a></td>
+<td>Chizhou</td>
+</tr>
+<tr>
+<td><kbd>393</kbd></td>
+<td><a href="https://www.4icu.org/reviews/740.htm">Chongqing Jiaotong University</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>252</kbd></td>
+<td><a href="https://www.4icu.org/reviews/741.htm">Chongqing Medical University</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>279</kbd></td>
+<td><a href="https://www.4icu.org/reviews/738.htm">Chongqing Normal University</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>250</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8587.htm">Chongqing Technology and Business University</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>425</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12811.htm">Chongqing Three Gorges University</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>30</kbd></td>
+<td><a href="https://www.4icu.org/reviews/739.htm">Chongqing University</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>332</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12810.htm">Chongqing University of Arts and Sciences</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>774</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15314.htm">Chongqing University of Education</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>134</kbd></td>
+<td><a href="https://www.4icu.org/reviews/742.htm">Chongqing University of Posts and Telecommunications</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>480</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12807.htm">Chongqing University of Science and Technology</a></td>
+<td>Daxue</td>
+</tr>
+<tr>
+<td><kbd>248</kbd></td>
+<td><a href="https://www.4icu.org/reviews/737.htm">Chongqing University of Technology</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>603</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8756.htm">Chuxiong Normal University</a></td>
+<td>Chuxiong</td>
+</tr>
+<tr>
+<td><kbd>471</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12672.htm">Chuzhou University</a></td>
+<td>Chuzhou</td>
+</tr>
+<tr>
+<td><kbd>521</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12813.htm">Civil Aviation Flight University of China</a></td>
+<td>Guanghan</td>
+</tr>
+<tr>
+<td><kbd>152</kbd></td>
+<td><a href="https://www.4icu.org/reviews/743.htm">Civil Aviation University of China</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>69</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8579.htm">Communication University of China</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>622</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15315.htm">Communication University of Shanxi</a></td>
+<td>Jinzhong</td>
+</tr>
+<tr>
+<td><kbd>583</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12851.htm">Dali University</a></td>
+<td>Dali City</td>
+</tr>
+<tr>
+<td><kbd>781</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12567.htm">Dalian Art College</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>824</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15316.htm">Dalian Institute of Science and Technology</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>506</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12530.htm">Dalian Jiaotong University</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>59</kbd></td>
+<td><a href="https://www.4icu.org/reviews/744.htm">Dalian Maritime University</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>376</kbd></td>
+<td><a href="https://www.4icu.org/reviews/745.htm">Dalian Medical University</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>269</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12534.htm">Dalian Nationalities University</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>166</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12558.htm">Dalian Neusoft University of Information</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>388</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12559.htm">Dalian Ocean University</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>523</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12532.htm">Dalian Polytechnic University</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>325</kbd></td>
+<td><a href="https://www.4icu.org/reviews/746.htm">Dalian University</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>201</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11868.htm">Dalian University of Foreign Languages</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>36</kbd></td>
+<td><a href="https://www.4icu.org/reviews/747.htm">Dalian University of Technology</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>395</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12600.htm">Daqing Normal University</a></td>
+<td>Daqing</td>
+</tr>
+<tr>
+<td><kbd>472</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8716.htm">Dezhou University</a></td>
+<td>Dezhou</td>
+</tr>
+<tr>
+<td><kbd>123</kbd></td>
+<td><a href="https://www.4icu.org/reviews/748.htm">Dongbei University of Finance and Economics</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>230</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8598.htm">Dongguan University of Technology</a></td>
+<td>Dongguan</td>
+</tr>
+<tr>
+<td><kbd>63</kbd></td>
+<td><a href="https://www.4icu.org/reviews/749.htm">Donghua University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>735</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15317.htm">Duke Kunshan University</a></td>
+<td>Kunshan</td>
+</tr>
+<tr>
+<td><kbd>762</kbd></td>
+<td><a href="https://www.4icu.org/reviews/750.htm">East China Jiaotong University</a></td>
+<td>Nanchang</td>
+</tr>
+<tr>
+<td><kbd>22</kbd></td>
+<td><a href="https://www.4icu.org/reviews/751.htm">East China Normal University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>188</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12607.htm">East China University of Political Science and Law</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>68</kbd></td>
+<td><a href="https://www.4icu.org/reviews/752.htm">East China University of Science and Technology</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>451</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12688.htm">East China University of Technology</a></td>
+<td>Fuzhou</td>
+</tr>
+<tr>
+<td><kbd>679</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12605.htm">East University of Heilongjiang</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>577</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12568.htm">Eastern Liaoning University</a></td>
+<td>Dandong</td>
+</tr>
+<tr>
+<td><kbd>261</kbd></td>
+<td><a href="https://www.4icu.org/reviews/753.htm">Foshan University</a></td>
+<td>Foshan</td>
+</tr>
+<tr>
+<td><kbd>1</kbd></td>
+<td><a href="https://www.4icu.org/reviews/754.htm">Fudan University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>195</kbd></td>
+<td><a href="https://www.4icu.org/reviews/755.htm">Fujian Agriculture and Forestry University</a></td>
+<td>Fuzhou</td>
+</tr>
+<tr>
+<td><kbd>813</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15318.htm">Fujian Jiangxia University</a></td>
+<td>Fuzhou</td>
+</tr>
+<tr>
+<td><kbd>285</kbd></td>
+<td><a href="https://www.4icu.org/reviews/756.htm">Fujian Medical University</a></td>
+<td>Fuzhou</td>
+</tr>
+<tr>
+<td><kbd>170</kbd></td>
+<td><a href="https://www.4icu.org/reviews/757.htm">Fujian Normal University</a></td>
+<td>Fuzhou</td>
+</tr>
+<tr>
+<td><kbd>215</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12678.htm">Fujian University of Technology</a></td>
+<td>Fuzhou</td>
+</tr>
+<tr>
+<td><kbd>358</kbd></td>
+<td><a href="https://www.4icu.org/reviews/759.htm">Fujian University of Traditional Chinese Medicine</a></td>
+<td>Fuzhou</td>
+</tr>
+<tr>
+<td><kbd>519</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12664.htm">Fuyang Teachers College</a></td>
+<td>Fuyang</td>
+</tr>
+<tr>
+<td><kbd>71</kbd></td>
+<td><a href="https://www.4icu.org/reviews/761.htm">Fuzhou University</a></td>
+<td>Fuzhou</td>
+</tr>
+<tr>
+<td><kbd>738</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11718.htm">Gannan Medical University</a></td>
+<td>Ganzhou</td>
+</tr>
+<tr>
+<td><kbd>649</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15319.htm">Gannan Normal University</a></td>
+<td>Ganzhou</td>
+</tr>
+<tr>
+<td><kbd>253</kbd></td>
+<td><a href="https://www.4icu.org/reviews/762.htm">Gansu Agricultural University</a></td>
+<td>Lanzhou</td>
+</tr>
+<tr>
+<td><kbd>467</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12885.htm">Gansu Institute of Political Science and Law</a></td>
+<td>Lanzhou</td>
+</tr>
+<tr>
+<td><kbd>759</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12883.htm">Gansu Normal University for Nationalities</a></td>
+<td>Hezuo</td>
+</tr>
+<tr>
+<td><kbd>554</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12881.htm">Gansu University of Chinese Medicine</a></td>
+<td>Lanzhou</td>
+</tr>
+<tr>
+<td><kbd>Un</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15320.htm">Guang Dong Polytechnic College</a></td>
+<td>Zhaoqing</td>
+</tr>
+<tr>
+<td><kbd>461</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12789.htm">Guangdong Baiyun University</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>385</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12778.htm">Guangdong Medical University</a></td>
+<td>Zhanjiang</td>
+</tr>
+<tr>
+<td><kbd>307</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12775.htm">Guangdong Ocean University</a></td>
+<td>Zhanjiang</td>
+</tr>
+<tr>
+<td><kbd>793</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12788.htm">Guangdong Peizheng College</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>340</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12780.htm">Guangdong Pharmaceutical University</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>377</kbd></td>
+<td><a href="https://www.4icu.org/reviews/764.htm">Guangdong Polytechnic Normal University</a></td>
+<td>Guangzhou ...</td>
+</tr>
+<tr>
+<td><kbd>572</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15321.htm">Guangdong University of Education</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>499</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12783.htm">Guangdong University of Finance</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>150</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12784.htm">Guangdong University of Finance and Economics</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>95</kbd></td>
+<td><a href="https://www.4icu.org/reviews/766.htm">Guangdong University of Foreign Studies</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>497</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12776.htm">Guangdong University of Petrochemical Technology</a></td>
+<td>Maoming</td>
+</tr>
+<tr>
+<td><kbd>808</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15322.htm">Guangdong University of Science and Technology</a></td>
+<td>Dongguan</td>
+</tr>
+<tr>
+<td><kbd>79</kbd></td>
+<td><a href="https://www.4icu.org/reviews/767.htm">Guangdong University of Technology</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>728</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12799.htm">Guangxi Arts University</a></td>
+<td>Nanning</td>
+</tr>
+<tr>
+<td><kbd>260</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8608.htm">Guangxi Medical University</a></td>
+<td>Nanning</td>
+</tr>
+<tr>
+<td><kbd>142</kbd></td>
+<td><a href="https://www.4icu.org/reviews/768.htm">Guangxi Normal University</a></td>
+<td>Guilin</td>
+</tr>
+<tr>
+<td><kbd>228</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12794.htm">Guangxi Teachers Education University</a></td>
+<td>Nanning</td>
+</tr>
+<tr>
+<td><kbd>80</kbd></td>
+<td><a href="https://www.4icu.org/reviews/770.htm">Guangxi University</a></td>
+<td>Nanning</td>
+</tr>
+<tr>
+<td><kbd>224</kbd></td>
+<td><a href="https://www.4icu.org/reviews/771.htm">Guangxi University for Nationalities</a></td>
+<td>Nanning</td>
+</tr>
+<tr>
+<td><kbd>582</kbd></td>
+<td><a href="https://www.4icu.org/reviews/769.htm">Guangxi University of Chinese Medicine</a></td>
+<td>Nanning</td>
+</tr>
+<tr>
+<td><kbd>534</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12798.htm">Guangxi University of Finance and Economics</a></td>
+<td>Nanning</td>
+</tr>
+<tr>
+<td><kbd>856</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15323.htm">Guangxi University of Foreign Languages</a></td>
+<td>Nannning</td>
+</tr>
+<tr>
+<td><kbd>445</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12791.htm">Guangxi University of Technology</a></td>
+<td>Liuzhou</td>
+</tr>
+<tr>
+<td><kbd>262</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12786.htm">Guangzhou Academy of Fine Arts</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>750</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15324.htm">Guangzhou College of Commerce</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>712</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15325.htm">Guangzhou Maritime Institute</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>401</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12779.htm">Guangzhou Medical University</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>459</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12785.htm">Guangzhou Sport University</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>110</kbd></td>
+<td><a href="https://www.4icu.org/reviews/773.htm">Guangzhou University</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>249</kbd></td>
+<td><a href="https://www.4icu.org/reviews/774.htm">Guangzhou University of Chinese Medicine</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>528</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12793.htm">Guilin Medical University</a></td>
+<td>Guilin</td>
+</tr>
+<tr>
+<td><kbd>568</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15326.htm">Guilin University of Aerospace Technology</a></td>
+<td>Guilin</td>
+</tr>
+<tr>
+<td><kbd>139</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12790.htm">Guilin University of Electronic Technology</a></td>
+<td>Guilin</td>
+</tr>
+<tr>
+<td><kbd>662</kbd></td>
+<td><a href="https://www.4icu.org/reviews/9281.htm">Guilin University of Technology</a></td>
+<td>Guilin ...</td>
+</tr>
+<tr>
+<td><kbd>566</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12830.htm">Guiyang College of Traditional Chinese Medicine</a></td>
+<td>Guiyang</td>
+</tr>
+<tr>
+<td><kbd>651</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12842.htm">Guiyang University</a></td>
+<td>Guiyang</td>
+</tr>
+<tr>
+<td><kbd>496</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15329.htm">Guizhou Education University</a></td>
+<td>Guiyang</td>
+</tr>
+<tr>
+<td><kbd>800</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15327.htm">Guizhou Institute of Technology</a></td>
+<td>Guiyang</td>
+</tr>
+<tr>
+<td><kbd>486</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12828.htm">Guizhou Medical University</a></td>
+<td>Guiyang</td>
+</tr>
+<tr>
+<td><kbd>696</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12838.htm">Guizhou Minzu University</a></td>
+<td>Guiyang</td>
+</tr>
+<tr>
+<td><kbd>292</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8613.htm">Guizhou Normal University</a></td>
+<td>Guiyang</td>
+</tr>
+<tr>
+<td><kbd>144</kbd></td>
+<td><a href="https://www.4icu.org/reviews/775.htm">Guizhou University</a></td>
+<td>Guiyang</td>
+</tr>
+<tr>
+<td><kbd>809</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15330.htm">Guizhou University of Engineering Science</a></td>
+<td>Bijie</td>
+</tr>
+<tr>
+<td><kbd>456</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12837.htm">Guizhou University of Finance and Economics</a></td>
+<td>Guiyang</td>
+</tr>
+<tr>
+<td><kbd>485</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12804.htm">Haikou College of Economics</a></td>
+<td>Haikou</td>
+</tr>
+<tr>
+<td><kbd>437</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12805.htm">Hainan Medical University</a></td>
+<td>Haikou</td>
+</tr>
+<tr>
+<td><kbd>350</kbd></td>
+<td><a href="https://www.4icu.org/reviews/776.htm">Hainan Normal University</a></td>
+<td>Haikou</td>
+</tr>
+<tr>
+<td><kbd>149</kbd></td>
+<td><a href="https://www.4icu.org/reviews/777.htm">Hainan University</a></td>
+<td>Haikou</td>
+</tr>
+<tr>
+<td><kbd>690</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12510.htm">Handan College</a></td>
+<td>Handan</td>
+</tr>
+<tr>
+<td><kbd>85</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8760.htm">Hangzhou Dianzi University</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>208</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12640.htm">Hangzhou Normal University</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>775</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15331.htm">Hankou University</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>335</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12782.htm">Hanshan Normal University</a></td>
+<td>Chaozhou</td>
+</tr>
+<tr>
+<td><kbd>786</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15332.htm">Harbin Cambridge University</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>53</kbd></td>
+<td><a href="https://www.4icu.org/reviews/779.htm">Harbin Engineering University</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>787</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15333.htm">Harbin Far East Institute of Technology</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>828</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15334.htm">Harbin Finance University</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>719</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15335.htm">Harbin Guangxia University</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>816</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15336.htm">Harbin Huade University</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>796</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15337.htm">Harbin Institute of Petroleum</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>680</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12603.htm">Harbin Institute of Physical Education</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>25</kbd></td>
+<td><a href="https://www.4icu.org/reviews/780.htm">Harbin Institute of Technology</a></td>
+<td>Harbin ...</td>
+</tr>
+<tr>
+<td><kbd>187</kbd></td>
+<td><a href="https://www.4icu.org/reviews/781.htm">Harbin Medical University</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>343</kbd></td>
+<td><a href="https://www.4icu.org/reviews/782.htm">Harbin Normal University</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>476</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12595.htm">Harbin University</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>373</kbd></td>
+<td><a href="https://www.4icu.org/reviews/795.htm">Harbin University of Commerce</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>203</kbd></td>
+<td><a href="https://www.4icu.org/reviews/784.htm">Harbin University of Science and Technology</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>729</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15338.htm">He University</a></td>
+<td>Shenyang ...</td>
+</tr>
+<tr>
+<td><kbd>769</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12502.htm">Hebei Finance University</a></td>
+<td>Baoding</td>
+</tr>
+<tr>
+<td><kbd>682</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15340.htm">Hebei Foreign Studies University</a></td>
+<td>Shijiazhuang</td>
+</tr>
+<tr>
+<td><kbd>190</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12495.htm">Hebei GEO University</a></td>
+<td>Shijiazhuang</td>
+</tr>
+<tr>
+<td><kbd>670</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12504.htm">Hebei Institute of Communication</a></td>
+<td>Shijiazhuang</td>
+</tr>
+<tr>
+<td><kbd>585</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12503.htm">Hebei Institute of Physical Education</a></td>
+<td>Shijiazhuang</td>
+</tr>
+<tr>
+<td><kbd>392</kbd></td>
+<td><a href="https://www.4icu.org/reviews/786.htm">Hebei Medical University</a></td>
+<td>Shijiazhuang</td>
+</tr>
+<tr>
+<td><kbd>175</kbd></td>
+<td><a href="https://www.4icu.org/reviews/787.htm">Hebei Normal University</a></td>
+<td>Shijiazhuang</td>
+</tr>
+<tr>
+<td><kbd>777</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15341.htm">Hebei Normal University for Nationalities</a></td>
+<td>Chengde</td>
+</tr>
+<tr>
+<td><kbd>584</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12498.htm">Hebei Normal University of Science and Technology</a></td>
+<td>Qinhuangdao</td>
+</tr>
+<tr>
+<td><kbd>641</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12509.htm">Hebei North University</a></td>
+<td>Zhangjiakou</td>
+</tr>
+<tr>
+<td><kbd>198</kbd></td>
+<td><a href="https://www.4icu.org/reviews/789.htm">Hebei University</a></td>
+<td>Baoding</td>
+</tr>
+<tr>
+<td><kbd>632</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12493.htm">Hebei University of Architecture</a></td>
+<td>Zhangjiakou</td>
+</tr>
+<tr>
+<td><kbd>811</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15342.htm">Hebei University of Chinese Medicine</a></td>
+<td>Shijiazhuang</td>
+</tr>
+<tr>
+<td><kbd>299</kbd></td>
+<td><a href="https://www.4icu.org/reviews/790.htm">Hebei University of Economics and Business</a></td>
+<td>Shijiazhuang</td>
+</tr>
+<tr>
+<td><kbd>347</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12490.htm">Hebei University of Engineering</a></td>
+<td>Handan</td>
+</tr>
+<tr>
+<td><kbd>238</kbd></td>
+<td><a href="https://www.4icu.org/reviews/791.htm">Hebei University of Science and Technology</a></td>
+<td>Shijiazhuang</td>
+</tr>
+<tr>
+<td><kbd>108</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15343.htm">Hebei University of Technology</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>610</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12797.htm">Hechi University</a></td>
+<td>Yizhou</td>
+</tr>
+<tr>
+<td><kbd>441</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12665.htm">Hefei Normal University</a></td>
+<td>Hefei</td>
+</tr>
+<tr>
+<td><kbd>328</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12667.htm">Hefei University</a></td>
+<td>Hefei</td>
+</tr>
+<tr>
+<td><kbd>84</kbd></td>
+<td><a href="https://www.4icu.org/reviews/793.htm">Hefei University of Technology</a></td>
+<td>Hefei</td>
+</tr>
+<tr>
+<td><kbd>744</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12606.htm">Heihe University</a></td>
+<td>Heihe</td>
+</tr>
+<tr>
+<td><kbd>676</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12589.htm">Heilongjiang Bayi Agricultural University</a></td>
+<td>Daqing</td>
+</tr>
+<tr>
+<td><kbd>671</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12596.htm">Heilongjiang Institute of Technology</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>810</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15344.htm">Heilongjiang International University</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>206</kbd></td>
+<td><a href="https://www.4icu.org/reviews/796.htm">Heilongjiang University</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>567</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8624.htm">Heilongjiang University of Chinese Medicine</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>731</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12602.htm">Heilongjiang University of Finance and Economics</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>557</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12597.htm">Heilongjiang University of Science and Technology</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>210</kbd></td>
+<td><a href="https://www.4icu.org/reviews/797.htm">Henan Agricultural University</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>713</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12730.htm">Henan Institute of Engineering</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>470</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12742.htm">Henan Institute of Science and Technology</a></td>
+<td>Xinxiang</td>
+</tr>
+<tr>
+<td><kbd>171</kbd></td>
+<td><a href="https://www.4icu.org/reviews/798.htm">Henan Normal University</a></td>
+<td>Xinxiang</td>
+</tr>
+<tr>
+<td><kbd>185</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8632.htm">Henan Polytechnic University</a></td>
+<td>Jiaozuo</td>
+</tr>
+<tr>
+<td><kbd>101</kbd></td>
+<td><a href="https://www.4icu.org/reviews/799.htm">Henan University</a></td>
+<td>Kaifeng</td>
+</tr>
+<tr>
+<td><kbd>590</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12739.htm">Henan University of Economics and Law</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>264</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12720.htm">Henan University of Science and Technology</a></td>
+<td>Luoyang</td>
+</tr>
+<tr>
+<td><kbd>207</kbd></td>
+<td><a href="https://www.4icu.org/reviews/6908.htm">Henan University of Technology</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>345</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12732.htm">Henan University of Traditional Chinese Medicine</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>439</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12725.htm">Henan University of Urban Construction</a></td>
+<td>Pingdingshan</td>
+</tr>
+<tr>
+<td><kbd>721</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12507.htm">Hengshui University</a></td>
+<td>Hengshui</td>
+</tr>
+<tr>
+<td><kbd>672</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8655.htm">Hengyang Normal University</a></td>
+<td>Hengyang</td>
+</tr>
+<tr>
+<td><kbd>747</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15345.htm">Hetao College</a></td>
+<td>Bayannur</td>
+</tr>
+<tr>
+<td><kbd>263</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12886.htm">Hexi University</a></td>
+<td>Zhangye</td>
+</tr>
+<tr>
+<td><kbd>697</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12718.htm">Heze University</a></td>
+<td>Heze</td>
+</tr>
+<tr>
+<td><kbd>825</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12801.htm">Hezhou University</a></td>
+<td>Hezhou</td>
+</tr>
+<tr>
+<td><kbd>58</kbd></td>
+<td><a href="https://www.4icu.org/reviews/794.htm">Hohai University</a></td>
+<td>Nanjing ...</td>
+</tr>
+<tr>
+<td><kbd>542</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12849.htm">Honghe University</a></td>
+<td>Mengzi</td>
+</tr>
+<tr>
+<td><kbd>372</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12661.htm">Huaibei Normal University</a></td>
+<td>Huaibei</td>
+</tr>
+<tr>
+<td><kbd>303</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12622.htm">Huaihai Institute of Technology</a></td>
+<td>Lianyungang</td>
+</tr>
+<tr>
+<td><kbd>440</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12774.htm">Huaihua University</a></td>
+<td>Huaihua</td>
+</tr>
+<tr>
+<td><kbd>442</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12660.htm">Huainan Normal University</a></td>
+<td>Huainan</td>
+</tr>
+<tr>
+<td><kbd>414</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12620.htm">Huaiyin Institute of Technology</a></td>
+<td>Huaiyin</td>
+</tr>
+<tr>
+<td><kbd>311</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12629.htm">Huaiyin Normal University</a></td>
+<td>Huaiyin</td>
+</tr>
+<tr>
+<td><kbd>473</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12752.htm">Huanggang Normal University</a></td>
+<td>Huanggang</td>
+</tr>
+<tr>
+<td><kbd>733</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15346.htm">Huanghe Jiaotong University</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>520</kbd></td>
+<td><a href="https://www.4icu.org/reviews/802.htm">Huanghe Science and Technology College</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>493</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12740.htm">Huanghuai University</a></td>
+<td>Zhumadian</td>
+</tr>
+<tr>
+<td><kbd>630</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12668.htm">Huangshan University</a></td>
+<td>Huangshan City</td>
+</tr>
+<tr>
+<td><kbd>146</kbd></td>
+<td><a href="https://www.4icu.org/reviews/847.htm">Huaqiao University</a></td>
+<td>Quanzhou</td>
+</tr>
+<tr>
+<td><kbd>51</kbd></td>
+<td><a href="https://www.4icu.org/reviews/803.htm">Huazhong Agricultural University</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>21</kbd></td>
+<td><a href="https://www.4icu.org/reviews/804.htm">Huazhong University of Science and Technology</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>764</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8652.htm">Hubei Engineering University</a></td>
+<td>Xiaogan</td>
+</tr>
+<tr>
+<td><kbd>302</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12756.htm">Hubei Institute of Fine Arts</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>379</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8644.htm">Hubei Normal University</a></td>
+<td>Huangshi</td>
+</tr>
+<tr>
+<td><kbd>475</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15347.htm">Hubei Polytechnic University</a></td>
+<td>Huangshi</td>
+</tr>
+<tr>
+<td><kbd>189</kbd></td>
+<td><a href="https://www.4icu.org/reviews/806.htm">Hubei University</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>541</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12758.htm">Hubei University for Nationalities</a></td>
+<td>Enshi</td>
+</tr>
+<tr>
+<td><kbd>715</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12761.htm">Hubei University of Arts and Science</a></td>
+<td>Xiangyang</td>
+</tr>
+<tr>
+<td><kbd>596</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12749.htm">Hubei University of Automotive Technology</a></td>
+<td>Shiyan</td>
+</tr>
+<tr>
+<td><kbd>351</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12750.htm">Hubei University of Chinese Medicine</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>289</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12754.htm">Hubei University of Economics</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>390</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12753.htm">Hubei University of Education</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>691</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12751.htm">Hubei University of Medicine</a></td>
+<td>Shiyan</td>
+</tr>
+<tr>
+<td><kbd>776</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12759.htm">Hubei University of Science and Technology</a></td>
+<td>Xianning</td>
+</tr>
+<tr>
+<td><kbd>177</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8645.htm">Hubei University of Technology</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>242</kbd></td>
+<td><a href="https://www.4icu.org/reviews/807.htm">Huizhou University</a></td>
+<td>Huizhou</td>
+</tr>
+<tr>
+<td><kbd>408</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15348.htm">Hulunbeier College</a></td>
+<td>Hulunbuir</td>
+</tr>
+<tr>
+<td><kbd>291</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8657.htm">Hunan Agricultural University</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>832</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15349.htm">Hunan Applied Technology University</a></td>
+<td>Changde</td>
+</tr>
+<tr>
+<td><kbd>305</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12765.htm">Hunan City University</a></td>
+<td>Yiyang</td>
+</tr>
+<tr>
+<td><kbd>665</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12764.htm">Hunan First Normal University</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>454</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12766.htm">Hunan Institute of Engineering</a></td>
+<td>Xiangtan</td>
+</tr>
+<tr>
+<td><kbd>734</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15350.htm">Hunan Institute of Information Technology</a></td>
+<td>Changsha ...</td>
+</tr>
+<tr>
+<td><kbd>353</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12767.htm">Hunan Institute of Science and Technology</a></td>
+<td>Yueyang</td>
+</tr>
+<tr>
+<td><kbd>660</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12768.htm">Hunan Institute of Technology</a></td>
+<td>Hengyang</td>
+</tr>
+<tr>
+<td><kbd>833</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15351.htm">Hunan Institute of Traffic Engineering</a></td>
+<td>Hengyang</td>
+</tr>
+<tr>
+<td><kbd>597</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12771.htm">Hunan International Economics University</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>111</kbd></td>
+<td><a href="https://www.4icu.org/reviews/808.htm">Hunan Normal University</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>50</kbd></td>
+<td><a href="https://www.4icu.org/reviews/809.htm">Hunan University</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>313</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8662.htm">Hunan University of Arts and Science</a></td>
+<td>Changde</td>
+</tr>
+<tr>
+<td><kbd>614</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15352.htm">Hunan University of Chinese Medicine</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>586</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12770.htm">Hunan University of Commerce</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>806</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15353.htm">Hunan University of Finance and Economics</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>578</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12772.htm">Hunan University of Humanities, Science and Technology</a></td>
+<td>Loudi</td>
+</tr>
+<tr>
+<td><kbd>607</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15354.htm">Hunan University of Science and Engineering</a></td>
+<td>Yongzhou</td>
+</tr>
+<tr>
+<td><kbd>329</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8664.htm">Hunan University of Science and Technology</a></td>
+<td>Xiangtan</td>
+</tr>
+<tr>
+<td><kbd>424</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12763.htm">Hunan University of Technology</a></td>
+<td>Zhuzhou</td>
+</tr>
+<tr>
+<td><kbd>855</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15355.htm">Hunan Women's University</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>803</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12648.htm">Huzhou University</a></td>
+<td>Huzhou</td>
+</tr>
+<tr>
+<td><kbd>257</kbd></td>
+<td><a href="https://www.4icu.org/reviews/810.htm">Inner Mongolia Agricultural University</a></td>
+<td>Hohhot</td>
+</tr>
+<tr>
+<td><kbd>524</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12524.htm">Inner Mongolia Medical University</a></td>
+<td>Hohhot</td>
+</tr>
+<tr>
+<td><kbd>797</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12525.htm">Inner Mongolia Nationality College</a></td>
+<td>Hohhot</td>
+</tr>
+<tr>
+<td><kbd>337</kbd></td>
+<td><a href="https://www.4icu.org/reviews/811.htm">Inner Mongolia Normal University</a></td>
+<td>Hohhot</td>
+</tr>
+<tr>
+<td><kbd>117</kbd></td>
+<td><a href="https://www.4icu.org/reviews/813.htm">Inner Mongolia University</a></td>
+<td>Hohhot</td>
+</tr>
+<tr>
+<td><kbd>Un</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12523.htm">Inner Mongolia University for the Nationalities</a></td>
+<td>Tongliao</td>
+</tr>
+<tr>
+<td><kbd>544</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12528.htm">Inner Mongolia University of Finance and Economics</a></td>
+<td>Hohhot</td>
+</tr>
+<tr>
+<td><kbd>417</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12522.htm">Inner Mongolia University of Science and Technology</a></td>
+<td>Baotou</td>
+</tr>
+<tr>
+<td><kbd>458</kbd></td>
+<td><a href="https://www.4icu.org/reviews/812.htm">Inner Mongolia University of Technology</a></td>
+<td>Hohhot</td>
+</tr>
+<tr>
+<td><kbd>779</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8625.htm">Jiamusi University</a></td>
+<td>Jiamusi</td>
+</tr>
+<tr>
+<td><kbd>331</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8646.htm">Jianghan University</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>116</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11879.htm">Jiangnan University</a></td>
+<td>Wuxi</td>
+</tr>
+<tr>
+<td><kbd>220</kbd></td>
+<td><a href="https://www.4icu.org/reviews/971.htm">Jiangsu Normal University</a></td>
+<td>Xuzhou</td>
+</tr>
+<tr>
+<td><kbd>699</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15356.htm">Jiangsu Second Normal University</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>539</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12628.htm">Jiangsu Teachers University of Technology</a></td>
+<td>Changzhou</td>
+</tr>
+<tr>
+<td><kbd>88</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8676.htm">Jiangsu University</a></td>
+<td>Zhenjiang</td>
+</tr>
+<tr>
+<td><kbd>281</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12617.htm">Jiangsu University of Science and Technology</a></td>
+<td>Zhenjiang</td>
+</tr>
+<tr>
+<td><kbd>789</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15357.htm">Jiangsu University of Technology</a></td>
+<td>Changzhou</td>
+</tr>
+<tr>
+<td><kbd>349</kbd></td>
+<td><a href="https://www.4icu.org/reviews/816.htm">Jiangxi Agricultural University</a></td>
+<td>Nanchang</td>
+</tr>
+<tr>
+<td><kbd>827</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15358.htm">Jiangxi Institute of Fashion Technology</a></td>
+<td>Nanchang</td>
+</tr>
+<tr>
+<td><kbd>141</kbd></td>
+<td><a href="https://www.4icu.org/reviews/817.htm">Jiangxi Normal University</a></td>
+<td>Nanchang</td>
+</tr>
+<tr>
+<td><kbd>711</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12693.htm">Jiangxi Science and Technology Normal University</a></td>
+<td>Nanchang</td>
+</tr>
+<tr>
+<td><kbd>241</kbd></td>
+<td><a href="https://www.4icu.org/reviews/818.htm">Jiangxi University of Finance and Economics</a></td>
+<td>Nanchang</td>
+</tr>
+<tr>
+<td><kbd>463</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12686.htm">Jiangxi University of Science and Technology</a></td>
+<td>Ganzhou</td>
+</tr>
+<tr>
+<td><kbd>560</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12696.htm">Jiangxi University of Technology</a></td>
+<td>Nanchang</td>
+</tr>
+<tr>
+<td><kbd>526</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12692.htm">Jiangxi University of Traditional Chinese Medicine</a></td>
+<td>Nanchang</td>
+</tr>
+<tr>
+<td><kbd>360</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15360.htm">Jiaxing University</a></td>
+<td>Jiaxing</td>
+</tr>
+<tr>
+<td><kbd>386</kbd></td>
+<td><a href="https://www.4icu.org/reviews/819.htm">Jiaying University</a></td>
+<td>Meizhou</td>
+</tr>
+<tr>
+<td><kbd>677</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12578.htm">Jilin Agricultural Science and Technology College</a></td>
+<td>Jilin</td>
+</tr>
+<tr>
+<td><kbd>115</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12572.htm">Jilin Agricultural University</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>853</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12588.htm">Jilin Animation Institute</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>702</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12585.htm">Jilin Business and Technology College</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>551</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12587.htm">Jilin College of the Arts</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>591</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12580.htm">Jilin Engineering Normal University</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>594</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12583.htm">Jilin Huaqiao University of Foreign Languages</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>543</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12577.htm">Jilin Institute of Chemical Technology</a></td>
+<td>Jilin</td>
+</tr>
+<tr>
+<td><kbd>837</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12576.htm">Jilin Jianzhu University</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>668</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12579.htm">Jilin Medical University</a></td>
+<td>Jilin</td>
+</tr>
+<tr>
+<td><kbd>330</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8691.htm">Jilin Normal University</a></td>
+<td>Siping</td>
+</tr>
+<tr>
+<td><kbd>657</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12586.htm">Jilin Sport University</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>31</kbd></td>
+<td><a href="https://www.4icu.org/reviews/820.htm">Jilin University</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>844</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12584.htm">Jilin University of Finance and Economics</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>145</kbd></td>
+<td><a href="https://www.4icu.org/reviews/822.htm">Jimei University</a></td>
+<td>Xiamen</td>
+</tr>
+<tr>
+<td><kbd>35</kbd></td>
+<td><a href="https://www.4icu.org/reviews/823.htm">Jinan University</a></td>
+<td>Guangzhou ...</td>
+</tr>
+<tr>
+<td><kbd>563</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12748.htm">Jingchu University of Technology</a></td>
+<td>Jingmen</td>
+</tr>
+<tr>
+<td><kbd>858</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15361.htm">Jingdezhen University</a></td>
+<td>Jingdezhen</td>
+</tr>
+<tr>
+<td><kbd>404</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12690.htm">Jinggangshan University</a></td>
+<td>Ji'an</td>
+</tr>
+<tr>
+<td><kbd>588</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12705.htm">Jining Medical University</a></td>
+<td>Jining</td>
+</tr>
+<tr>
+<td><kbd>823</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12527.htm">Jining Normal University</a></td>
+<td>Jining</td>
+</tr>
+<tr>
+<td><kbd>624</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12717.htm">Jining University</a></td>
+<td>Jining</td>
+</tr>
+<tr>
+<td><kbd>430</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12625.htm">Jinling Institute of Technology</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>692</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12520.htm">Jinzhong University</a></td>
+<td>Jinzhong</td>
+</tr>
+<tr>
+<td><kbd>344</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12560.htm">Jinzhou Medical University</a></td>
+<td>Jinzhou</td>
+</tr>
+<tr>
+<td><kbd>306</kbd></td>
+<td><a href="https://www.4icu.org/reviews/826.htm">Jishou University</a></td>
+<td>Jishou</td>
+</tr>
+<tr>
+<td><kbd>575</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12695.htm">Jiujiang University</a></td>
+<td>Jiujiang</td>
+</tr>
+<tr>
+<td><kbd>722</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12840.htm">Kaili University</a></td>
+<td>Kaili</td>
+</tr>
+<tr>
+<td><kbd>620</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12894.htm">Kashi University</a></td>
+<td>Kashgar</td>
+</tr>
+<tr>
+<td><kbd>623</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12845.htm">Kunming Medical University</a></td>
+<td>Kunming</td>
+</tr>
+<tr>
+<td><kbd>637</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8757.htm">Kunming University</a></td>
+<td>Kunming</td>
+</tr>
+<tr>
+<td><kbd>202</kbd></td>
+<td><a href="https://www.4icu.org/reviews/827.htm">Kunming University of Science and Technology</a></td>
+<td>Kunming</td>
+</tr>
+<tr>
+<td><kbd>716</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12500.htm">Langfang Teachers University</a></td>
+<td>Langfang</td>
+</tr>
+<tr>
+<td><kbd>616</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12887.htm">Lanzhou City University</a></td>
+<td>Lanzhou</td>
+</tr>
+<tr>
+<td><kbd>669</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15362.htm">Lanzhou Institute of Technology</a></td>
+<td>Lanzhou</td>
+</tr>
+<tr>
+<td><kbd>165</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8595.htm">Lanzhou Jiaotong University</a></td>
+<td>Lanzhou</td>
+</tr>
+<tr>
+<td><kbd>39</kbd></td>
+<td><a href="https://www.4icu.org/reviews/828.htm">Lanzhou University</a></td>
+<td>Lanzhou ...</td>
+</tr>
+<tr>
+<td><kbd>792</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15363.htm">Lanzhou University of Arts and Science</a></td>
+<td>Lanzhou</td>
+</tr>
+<tr>
+<td><kbd>416</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12884.htm">Lanzhou University of Finance and Economics</a></td>
+<td>Lanzhou</td>
+</tr>
+<tr>
+<td><kbd>501</kbd></td>
+<td><a href="https://www.4icu.org/reviews/763.htm">Lanzhou University of Technology</a></td>
+<td>Lanzhou</td>
+</tr>
+<tr>
+<td><kbd>644</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12821.htm">Leshan Normal University</a></td>
+<td>Leshan</td>
+</tr>
+<tr>
+<td><kbd>314</kbd></td>
+<td><a href="https://www.4icu.org/reviews/829.htm">Liaocheng University</a></td>
+<td>Liaocheng</td>
+</tr>
+<tr>
+<td><kbd>783</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15364.htm">Liaoning Communication University</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>754</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12563.htm">Liaoning Finance and Trade College</a></td>
+<td>Huludao</td>
+</tr>
+<tr>
+<td><kbd>840</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15365.htm">Liaoning Institute of Science and Engineering</a></td>
+<td>Jinzhou</td>
+</tr>
+<tr>
+<td><kbd>638</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12557.htm">Liaoning Institute of Science and Technology</a></td>
+<td>Benxi</td>
+</tr>
+<tr>
+<td><kbd>294</kbd></td>
+<td><a href="https://www.4icu.org/reviews/830.htm">Liaoning Normal University</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>354</kbd></td>
+<td><a href="https://www.4icu.org/reviews/760.htm">Liaoning Shihua University</a></td>
+<td>Fushun</td>
+</tr>
+<tr>
+<td><kbd>412</kbd></td>
+<td><a href="https://www.4icu.org/reviews/831.htm">Liaoning Technical University</a></td>
+<td>Huludao</td>
+</tr>
+<tr>
+<td><kbd>179</kbd></td>
+<td><a href="https://www.4icu.org/reviews/832.htm">Liaoning University</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>726</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12569.htm">Liaoning University of International Business and Economics</a></td>
+<td>Dalian</td>
+</tr>
+<tr>
+<td><kbd>642</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12531.htm">Liaoning University of Technology</a></td>
+<td>Jinzhou</td>
+</tr>
+<tr>
+<td><kbd>525</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12533.htm">Liaoning University of Traditional Chinese Medicine</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>589</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12781.htm">Lingnan Normal University</a></td>
+<td>Zhanjiang</td>
+</tr>
+<tr>
+<td><kbd>447</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12706.htm">Linyi University</a></td>
+<td>Linyi</td>
+</tr>
+<tr>
+<td><kbd>627</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15366.htm">Lishui University</a></td>
+<td>Lishui</td>
+</tr>
+<tr>
+<td><kbd>748</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12833.htm">Liupanshui Normal University</a></td>
+<td>Liupanshui</td>
+</tr>
+<tr>
+<td><kbd>648</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12882.htm">Longdong University</a></td>
+<td>Qingyang</td>
+</tr>
+<tr>
+<td><kbd>479</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12682.htm">Longyan University</a></td>
+<td>Longyan</td>
+</tr>
+<tr>
+<td><kbd>489</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8723.htm">Ludong University</a></td>
+<td>Yantai</td>
+</tr>
+<tr>
+<td><kbd>605</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15367.htm">Luliang University</a></td>
+<td>Luliang</td>
+</tr>
+<tr>
+<td><kbd>498</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12731.htm">Luoyang Institute of Science and Technology</a></td>
+<td>Luoyang</td>
+</tr>
+<tr>
+<td><kbd>703</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8636.htm">Luoyang Normal University</a></td>
+<td>Luoyang</td>
+</tr>
+<tr>
+<td><kbd>213</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12565.htm">LuXun Academy of Fine Arts</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>500</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12825.htm">Mianyang Normal University</a></td>
+<td>Mianyang</td>
+</tr>
+<tr>
+<td><kbd>466</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12684.htm">Minjiang University</a></td>
+<td>Fuzhou</td>
+</tr>
+<tr>
+<td><kbd>194</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12680.htm">Minnan Normal University</a></td>
+<td>Zhangzhou</td>
+</tr>
+<tr>
+<td><kbd>743</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12677.htm">Minnan University of Science and Technology</a></td>
+<td>Quanzhou</td>
+</tr>
+<tr>
+<td><kbd>316</kbd></td>
+<td><a href="https://www.4icu.org/reviews/719.htm">Minzu University of China</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>746</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12598.htm">Mudanjiang Medical University</a></td>
+<td>Mudanjiang</td>
+</tr>
+<tr>
+<td><kbd>636</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12601.htm">Mudanjiang Normal University</a></td>
+<td>Mudanjiang</td>
+</tr>
+<tr>
+<td><kbd>295</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12689.htm">Nanchang HangKong University</a></td>
+<td>Nanchang</td>
+</tr>
+<tr>
+<td><kbd>547</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12691.htm">Nanchang Institute of Technology</a></td>
+<td>Nanchang</td>
+</tr>
+<tr>
+<td><kbd>857</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15369.htm">Nanchang Normal University</a></td>
+<td>Nanchang</td>
+</tr>
+<tr>
+<td><kbd>89</kbd></td>
+<td><a href="https://www.4icu.org/reviews/833.htm">Nanchang University</a></td>
+<td>Nanchang</td>
+</tr>
+<tr>
+<td><kbd>75</kbd></td>
+<td><a href="https://www.4icu.org/reviews/834.htm">Nanjing Agricultural University</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>135</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12633.htm">Nanjing Audit University</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>119</kbd></td>
+<td><a href="https://www.4icu.org/reviews/835.htm">Nanjing Forestry University</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>176</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12626.htm">Nanjing Institute of Technology</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>91</kbd></td>
+<td><a href="https://www.4icu.org/reviews/837.htm">Nanjing Medical University</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>48</kbd></td>
+<td><a href="https://www.4icu.org/reviews/838.htm">Nanjing Normal University</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>635</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12634.htm">Nanjing Sport Institute</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>125</kbd></td>
+<td><a href="https://www.4icu.org/reviews/841.htm">Nanjing Tech University</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>5</kbd></td>
+<td><a href="https://www.4icu.org/reviews/839.htm">Nanjing University</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>26</kbd></td>
+<td><a href="https://www.4icu.org/reviews/840.htm">Nanjing University of Aeronautics and Astronautics</a></td>
+<td>Baixia ...</td>
+</tr>
+<tr>
+<td><kbd>276</kbd></td>
+<td><a href="https://www.4icu.org/reviews/845.htm">Nanjing University of Chinese Medicine</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>204</kbd></td>
+<td><a href="https://www.4icu.org/reviews/842.htm">Nanjing University of Finance and Economics</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>102</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11878.htm">Nanjing University of Information Science and Technology</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>109</kbd></td>
+<td><a href="https://www.4icu.org/reviews/843.htm">Nanjing University of Posts and Telecommunications</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>47</kbd></td>
+<td><a href="https://www.4icu.org/reviews/844.htm">Nanjing University of Science and Technology</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>455</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12635.htm">Nanjing University of the Arts</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>562</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12630.htm">Nanjing Xiaozhuang University</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>19</kbd></td>
+<td><a href="https://www.4icu.org/reviews/846.htm">Nankai University</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>286</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12618.htm">Nantong University</a></td>
+<td>Nantong</td>
+</tr>
+<tr>
+<td><kbd>282</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12728.htm">Nanyang Institute of Technology</a></td>
+<td>Nanyang</td>
+</tr>
+<tr>
+<td><kbd>664</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12736.htm">Nanyang Normal University</a></td>
+<td>Nanyang</td>
+</tr>
+<tr>
+<td><kbd>136</kbd></td>
+<td><a href="https://www.4icu.org/reviews/848.htm">National University of Defense Technology</a></td>
+<td>Changsha</td>
+</tr>
+<tr>
+<td><kbd>537</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12819.htm">Neijiang Normal University</a></td>
+<td>Neijiang</td>
+</tr>
+<tr>
+<td><kbd>841</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15371.htm">Neusoft Institute, Guangdong</a></td>
+<td>Foshan</td>
+</tr>
+<tr>
+<td><kbd>581</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12643.htm">Ningbo Dahongying University</a></td>
+<td>Ningbo</td>
+</tr>
+<tr>
+<td><kbd>130</kbd></td>
+<td><a href="https://www.4icu.org/reviews/850.htm">Ningbo University</a></td>
+<td>Ningbo</td>
+</tr>
+<tr>
+<td><kbd>288</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8762.htm">Ningbo University of Technology</a></td>
+<td>Ningbo</td>
+</tr>
+<tr>
+<td><kbd>798</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15372.htm">Ningde Normal University</a></td>
+<td>Ningde</td>
+</tr>
+<tr>
+<td><kbd>464</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12889.htm">Ningxia Institute of Science and Technology</a></td>
+<td>Shizuishan</td>
+</tr>
+<tr>
+<td><kbd>634</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12890.htm">Ningxia Medical University</a></td>
+<td>Yinchuan</td>
+</tr>
+<tr>
+<td><kbd>535</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12891.htm">Ningxia Normal University</a></td>
+<td>Guyuan</td>
+</tr>
+<tr>
+<td><kbd>199</kbd></td>
+<td><a href="https://www.4icu.org/reviews/851.htm">Ningxia University</a></td>
+<td>Yinchuan</td>
+</tr>
+<tr>
+<td><kbd>92</kbd></td>
+<td><a href="https://www.4icu.org/reviews/852.htm">North China Electric Power University</a></td>
+<td>Beijing ...</td>
+</tr>
+<tr>
+<td><kbd>842</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12494.htm">North China Institute of Aerospace Engineering</a></td>
+<td>Langfang</td>
+</tr>
+<tr>
+<td><kbd>795</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12491.htm">North China Institute of Science and Technology</a></td>
+<td>Sanhe</td>
+</tr>
+<tr>
+<td><kbd>681</kbd></td>
+<td><a href="https://www.4icu.org/reviews/792.htm">North China University of Science and Technology</a></td>
+<td>Tangshan</td>
+</tr>
+<tr>
+<td><kbd>214</kbd></td>
+<td><a href="https://www.4icu.org/reviews/853.htm">North China University of Technology</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>402</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12723.htm">North China University of Water Resources and Electric Power</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>356</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12817.htm">North Sichuan Medical College</a></td>
+<td>Nanchong</td>
+</tr>
+<tr>
+<td><kbd>168</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12511.htm">North University of China</a></td>
+<td>Taiyuan</td>
+</tr>
+<tr>
+<td><kbd>527</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15303.htm">North University of Nationalities</a></td>
+<td>Yinchuan</td>
+</tr>
+<tr>
+<td><kbd>243</kbd></td>
+<td><a href="https://www.4icu.org/reviews/854.htm">Northeast Agricultural University</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>151</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12574.htm">Northeast Electric Power University</a></td>
+<td>Jilin</td>
+</tr>
+<tr>
+<td><kbd>103</kbd></td>
+<td><a href="https://www.4icu.org/reviews/855.htm">Northeast Forestry University</a></td>
+<td>Harbin</td>
+</tr>
+<tr>
+<td><kbd>362</kbd></td>
+<td><a href="https://www.4icu.org/reviews/856.htm">Northeast Normal University</a></td>
+<td>Changchun</td>
+</tr>
+<tr>
+<td><kbd>399</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12594.htm">Northeast Petroleum University</a></td>
+<td>Daqing</td>
+</tr>
+<tr>
+<td><kbd>513</kbd></td>
+<td><a href="https://www.4icu.org/reviews/857.htm">Northeast University at Qinhuangdao Campus</a></td>
+<td>Qinhuangdao</td>
+</tr>
+<tr>
+<td><kbd>55</kbd></td>
+<td><a href="https://www.4icu.org/reviews/858.htm">Northeastern University, China</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>43</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8700.htm">Northwest A&amp;F University</a></td>
+<td>Yangling</td>
+</tr>
+<tr>
+<td><kbd>122</kbd></td>
+<td><a href="https://www.4icu.org/reviews/861.htm">Northwest Normal University</a></td>
+<td>Lanzhou</td>
+</tr>
+<tr>
+<td><kbd>378</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8596.htm">Northwest University for Nationalities</a></td>
+<td>Lanzhou</td>
+</tr>
+<tr>
+<td><kbd>427</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12860.htm">Northwest University of Politics and Law</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>121</kbd></td>
+<td><a href="https://www.4icu.org/reviews/863.htm">Northwest University, China</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>28</kbd></td>
+<td><a href="https://www.4icu.org/reviews/862.htm">Northwestern Polytechnical University</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>67</kbd></td>
+<td><a href="https://www.4icu.org/reviews/864.htm">Ocean University of China</a></td>
+<td>Qingdao</td>
+</tr>
+<tr>
+<td><kbd>612</kbd></td>
+<td><a href="https://www.4icu.org/reviews/9693.htm">Panzhihua University</a></td>
+<td>Panzhihua</td>
+</tr>
+<tr>
+<td><kbd>197</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8580.htm">Peking Union Medical College</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>3</kbd></td>
+<td><a href="https://www.4icu.org/reviews/866.htm">Peking University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>453</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8578.htm">People's Public Security University of China</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>613</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12743.htm">Pingdingshan University</a></td>
+<td>Pingdingshan</td>
+</tr>
+<tr>
+<td><kbd>851</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15374.htm">Pingxiang University</a></td>
+<td>Pingxiang</td>
+</tr>
+<tr>
+<td><kbd>830</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15375.htm">Puer University</a></td>
+<td>Pu'er</td>
+</tr>
+<tr>
+<td><kbd>683</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12683.htm">Putian University</a></td>
+<td>Putian</td>
+</tr>
+<tr>
+<td><kbd>511</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12834.htm">Qiannan Normal College for Nationalities</a></td>
+<td>Duyun</td>
+</tr>
+<tr>
+<td><kbd>685</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12699.htm">Qilu Medical University</a></td>
+<td>Zibo City</td>
+</tr>
+<tr>
+<td><kbd>753</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15376.htm">Qilu Normal University</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>432</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12702.htm">Qilu University of Technology</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>389</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12698.htm">Qingdao Agricultural University</a></td>
+<td>Laiyang</td>
+</tr>
+<tr>
+<td><kbd>739</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12714.htm">Qingdao Binhai University</a></td>
+<td>Qingdao</td>
+</tr>
+<tr>
+<td><kbd>756</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15385.htm">Qingdao Hengxing University of Science and Technology</a></td>
+<td>Qingdao</td>
+</tr>
+<tr>
+<td><kbd>674</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15377.htm">Qingdao Huanghai University</a></td>
+<td>Qingdao</td>
+</tr>
+<tr>
+<td><kbd>112</kbd></td>
+<td><a href="https://www.4icu.org/reviews/867.htm">Qingdao University</a></td>
+<td>Qingdao</td>
+</tr>
+<tr>
+<td><kbd>138</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8719.htm">Qingdao University of Science and Technology</a></td>
+<td>Qingdao</td>
+</tr>
+<tr>
+<td><kbd>801</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15378.htm">Qingdao University of Technology</a></td>
+<td>Qingdao</td>
+</tr>
+<tr>
+<td><kbd>304</kbd></td>
+<td><a href="https://www.4icu.org/reviews/9283.htm">Qingdao University of Technology</a></td>
+<td>Qingdao ...</td>
+</tr>
+<tr>
+<td><kbd>324</kbd></td>
+<td><a href="https://www.4icu.org/reviews/868.htm">Qinghai Normal University</a></td>
+<td>Xining</td>
+</tr>
+<tr>
+<td><kbd>371</kbd></td>
+<td><a href="https://www.4icu.org/reviews/870.htm">Qinghai University</a></td>
+<td>Xining</td>
+</tr>
+<tr>
+<td><kbd>443</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8697.htm">Qinghai University for Nationalities</a></td>
+<td>Xining</td>
+</tr>
+<tr>
+<td><kbd>700</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12802.htm">Qinzhou University</a></td>
+<td>Xinzhou</td>
+</tr>
+<tr>
+<td><kbd>436</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8615.htm">Qiongzhou University</a></td>
+<td>Sanya</td>
+</tr>
+<tr>
+<td><kbd>835</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15379.htm">Qiqihar Institute of Engineering</a></td>
+<td>Qiqihar</td>
+</tr>
+<tr>
+<td><kbd>595</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12599.htm">Qiqihar Medical University</a></td>
+<td>Qiqihar</td>
+</tr>
+<tr>
+<td><kbd>368</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8629.htm">Qiqihar University</a></td>
+<td>Qiqihar</td>
+</tr>
+<tr>
+<td><kbd>761</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15380.htm">Quanzhou Institute of Information Engineering</a></td>
+<td>Quanzhou</td>
+</tr>
+<tr>
+<td><kbd>369</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12679.htm">Quanzhou Normal University</a></td>
+<td>Quanzhou</td>
+</tr>
+<tr>
+<td><kbd>310</kbd></td>
+<td><a href="https://www.4icu.org/reviews/872.htm">Qufu Normal University</a></td>
+<td>Qufu</td>
+</tr>
+<tr>
+<td><kbd>708</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12847.htm">Qujing Normal University</a></td>
+<td>Qujing</td>
+</tr>
+<tr>
+<td><kbd>852</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15381.htm">Quzhou University</a></td>
+<td>Quzhou</td>
+</tr>
+<tr>
+<td><kbd>15</kbd></td>
+<td><a href="https://www.4icu.org/reviews/873.htm">Renmin University of China</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>505</kbd></td>
+<td><a href="https://www.4icu.org/reviews/893.htm">Sanda University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>836</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8680.htm">Sanjiang University</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>854</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12685.htm">Sanming University</a></td>
+<td>Sanming</td>
+</tr>
+<tr>
+<td><kbd>847</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15382.htm">Sanya University</a></td>
+<td>Sanya</td>
+</tr>
+<tr>
+<td><kbd>621</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12862.htm">Shaanxi Institute of International Trade and Commerce</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>70</kbd></td>
+<td><a href="https://www.4icu.org/reviews/906.htm">Shaanxi Normal University</a></td>
+<td>Xi'an ...</td>
+</tr>
+<tr>
+<td><kbd>516</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12864.htm">Shaanxi University of Chinese Medicine</a></td>
+<td>Xianyang</td>
+</tr>
+<tr>
+<td><kbd>273</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12861.htm">Shaanxi University of Science and Technology</a></td>
+<td>Xianyang</td>
+</tr>
+<tr>
+<td><kbd>391</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12866.htm">Shaanxi University of Technology</a></td>
+<td>Hanzhong</td>
+</tr>
+<tr>
+<td><kbd>766</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15383.htm">Shaanxi Xueqian Normal University</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>284</kbd></td>
+<td><a href="https://www.4icu.org/reviews/875.htm">Shandong Agricultural University</a></td>
+<td>Tai'an</td>
+</tr>
+<tr>
+<td><kbd>730</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15384.htm">Shandong Agriculture and Engineering University</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>678</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15386.htm">Shandong Huayu University of Technology</a></td>
+<td>Dezhou</td>
+</tr>
+<tr>
+<td><kbd>341</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12697.htm">Shandong Jianzhu University</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>426</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8720.htm">Shandong Jiaotong University</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>814</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15387.htm">Shandong Management University</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>120</kbd></td>
+<td><a href="https://www.4icu.org/reviews/878.htm">Shandong Normal University</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>552</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12710.htm">Shandong Sport University</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>364</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12708.htm">Shandong Technology and Business University</a></td>
+<td>Yantai</td>
+</tr>
+<tr>
+<td><kbd>46</kbd></td>
+<td><a href="https://www.4icu.org/reviews/879.htm">Shandong University</a></td>
+<td>Jinan ...</td>
+</tr>
+<tr>
+<td><kbd>374</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12712.htm">Shandong University of Art and Design</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>246</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12711.htm">Shandong University of Arts</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>256</kbd></td>
+<td><a href="https://www.4icu.org/reviews/876.htm">Shandong University of Finance and Economics</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>706</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12709.htm">Shandong University of Political Science and Law</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>100</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8721.htm">Shandong University of Science and Technology</a></td>
+<td>Tai'an</td>
+</tr>
+<tr>
+<td><kbd>167</kbd></td>
+<td><a href="https://www.4icu.org/reviews/880.htm">Shandong University of Technology</a></td>
+<td>Zibo</td>
+</tr>
+<tr>
+<td><kbd>298</kbd></td>
+<td><a href="https://www.4icu.org/reviews/881.htm">Shandong University of Traditional Chinese Medicine</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>698</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15388.htm">Shandong Women's University</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>819</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15389.htm">Shandong Xiehe University</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>462</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12701.htm">Shandong Yingcai University</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>695</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15390.htm">Shandong Youth University of Political Science</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>561</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8725.htm">Shanghai Business School</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>312</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11876.htm">Shanghai Conservatory of Music</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>522</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12611.htm">Shanghai Dianji University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>216</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12610.htm">Shanghai Institute of Technology</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>431</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15391.htm">Shanghai Institute of Visual Art</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>49</kbd></td>
+<td><a href="https://www.4icu.org/reviews/886.htm">Shanghai International Studies University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>420</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12608.htm">Shanghai Jianqiao University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>2</kbd></td>
+<td><a href="https://www.4icu.org/reviews/887.htm">Shanghai Jiao Tong University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>129</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12614.htm">Shanghai Lixin University of Accounting and Finance</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>87</kbd></td>
+<td><a href="https://www.4icu.org/reviews/889.htm">Shanghai Maritime University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>99</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11875.htm">Shanghai Normal University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>143</kbd></td>
+<td><a href="https://www.4icu.org/reviews/884.htm">Shanghai Ocean University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>355</kbd></td>
+<td><a href="https://www.4icu.org/reviews/895.htm">Shanghai Second Polytechnic University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>239</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15392.htm">Shanghai Tech University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>308</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12616.htm">Shanghai Theatre Academy</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>56</kbd></td>
+<td><a href="https://www.4icu.org/reviews/899.htm">Shanghai University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>318</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12612.htm">Shanghai University of Electric Power</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>114</kbd></td>
+<td><a href="https://www.4icu.org/reviews/900.htm">Shanghai University of Engineering Science</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>37</kbd></td>
+<td><a href="https://www.4icu.org/reviews/901.htm">Shanghai University of Finance and Economics</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>227</kbd></td>
+<td><a href="https://www.4icu.org/reviews/885.htm">Shanghai University of International Business and Economics</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>491</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12609.htm">Shanghai University of Political Science and Law</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>235</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11877.htm">Shanghai University of Sport</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>283</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8729.htm">Shanghai University of Traditional Chinese Medicine</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>839</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15393.htm">Shanghai Xingwei College</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>758</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12877.htm">Shangluo University</a></td>
+<td>Shangluo</td>
+</tr>
+<tr>
+<td><kbd>693</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15394.htm">Shangqiu Institute of Technology</a></td>
+<td>Shangqiu</td>
+</tr>
+<tr>
+<td><kbd>503</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12737.htm">Shangqiu Normal University</a></td>
+<td>Shangqiu</td>
+</tr>
+<tr>
+<td><kbd>732</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15395.htm">Shangqiu University</a></td>
+<td>Shangqiu</td>
+</tr>
+<tr>
+<td><kbd>838</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12694.htm">Shangrao Normal University</a></td>
+<td>Shangrao</td>
+</tr>
+<tr>
+<td><kbd>33</kbd></td>
+<td><a href="https://www.4icu.org/reviews/904.htm">Shantou University</a></td>
+<td>Shantou</td>
+</tr>
+<tr>
+<td><kbd>366</kbd></td>
+<td><a href="https://www.4icu.org/reviews/905.htm">Shanxi Agricultural University</a></td>
+<td>Taigu</td>
+</tr>
+<tr>
+<td><kbd>609</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12514.htm">Shanxi Datong University</a></td>
+<td>Datong</td>
+</tr>
+<tr>
+<td><kbd>846</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15396.htm">Shanxi Institute of Technology</a></td>
+<td>Yangquan</td>
+</tr>
+<tr>
+<td><kbd>367</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12513.htm">Shanxi Medical University</a></td>
+<td>Taiyuan</td>
+</tr>
+<tr>
+<td><kbd>413</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8732.htm">Shanxi Normal University</a></td>
+<td>Linfen</td>
+</tr>
+<tr>
+<td><kbd>157</kbd></td>
+<td><a href="https://www.4icu.org/reviews/908.htm">Shanxi University</a></td>
+<td>Taiyuan</td>
+</tr>
+<tr>
+<td><kbd>336</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8733.htm">Shanxi University of Finance and Economics</a></td>
+<td>Taiyuan</td>
+</tr>
+<tr>
+<td><kbd>532</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12515.htm">Shanxi University of Traditional Chinese Medicine</a></td>
+<td>Taiyuan</td>
+</tr>
+<tr>
+<td><kbd>415</kbd></td>
+<td><a href="https://www.4icu.org/reviews/909.htm">Shaoguan University</a></td>
+<td>Shaoguan</td>
+</tr>
+<tr>
+<td><kbd>481</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8764.htm">Shaoxing University</a></td>
+<td>Shaoxing</td>
+</tr>
+<tr>
+<td><kbd>342</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8667.htm">Shaoyang University</a></td>
+<td>Shaoyang</td>
+</tr>
+<tr>
+<td><kbd>290</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12555.htm">Shenyang Aerospace University</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>287</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8695.htm">Shenyang Agricultural University</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>848</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15397.htm">Shenyang City University</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>274</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12566.htm">Shenyang Conservatory of Music</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>643</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12556.htm">Shenyang Institute of Engineering</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>382</kbd></td>
+<td><a href="https://www.4icu.org/reviews/910.htm">Shenyang Jianzhu University</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>380</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12529.htm">Shenyang Ligong University</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>646</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12561.htm">Shenyang Medical College</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>221</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8696.htm">Shenyang Normal University</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>805</kbd></td>
+<td><a href="https://www.4icu.org/reviews/911.htm">Shenyang Pharmaceutical University</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>517</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12564.htm">Shenyang Sport University</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>484</kbd></td>
+<td><a href="https://www.4icu.org/reviews/913.htm">Shenyang University</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>631</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12554.htm">Shenyang University of Chemical Technology</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>323</kbd></td>
+<td><a href="https://www.4icu.org/reviews/912.htm">Shenyang University of Technology</a></td>
+<td>Shenyang ...</td>
+</tr>
+<tr>
+<td><kbd>817</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15399.htm">Shenyang Urban Construction University</a></td>
+<td>Shenyang</td>
+</tr>
+<tr>
+<td><kbd>11</kbd></td>
+<td><a href="https://www.4icu.org/reviews/914.htm">Shenzhen University</a></td>
+<td>Shenzhen</td>
+</tr>
+<tr>
+<td><kbd>334</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8749.htm">Shihezi University</a></td>
+<td>Shihezi</td>
+</tr>
+<tr>
+<td><kbd>448</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12492.htm">Shijiazhuang Tiedao University</a></td>
+<td>Shijiazhuang</td>
+</tr>
+<tr>
+<td><kbd>686</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12505.htm">Shijiazhuang University</a></td>
+<td>Shijiazhuang</td>
+</tr>
+<tr>
+<td><kbd>619</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12478.htm">Shougang Institute of Technology</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>127</kbd></td>
+<td><a href="https://www.4icu.org/reviews/915.htm">Sichuan Agricultural University</a></td>
+<td>Ya'an</td>
+</tr>
+<tr>
+<td><kbd>346</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12823.htm">Sichuan Conservatory of Music</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>293</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12809.htm">Sichuan Fine Arts Institute</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>845</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15401.htm">Sichuan Institute of Industrial Technology</a></td>
+<td>Deyang</td>
+</tr>
+<tr>
+<td><kbd>155</kbd></td>
+<td><a href="https://www.4icu.org/reviews/916.htm">Sichuan International Studies University</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>163</kbd></td>
+<td><a href="https://www.4icu.org/reviews/917.htm">Sichuan Normal University</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>807</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15402.htm">Sichuan Tourism University</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>40</kbd></td>
+<td><a href="https://www.4icu.org/reviews/918.htm">Sichuan University</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>687</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15403.htm">Sichuan University for Nationalities</a></td>
+<td>Kangding</td>
+</tr>
+<tr>
+<td><kbd>655</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12820.htm">Sichuan University of Arts and Science</a></td>
+<td>Tongchuan</td>
+</tr>
+<tr>
+<td><kbd>799</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15400.htm">Sichuan University of Culture and Arts</a></td>
+<td>Mianyang</td>
+</tr>
+<tr>
+<td><kbd>618</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15404.htm">Sichuan University of Media and Communications</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>333</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12815.htm">Sichuan University of Science and Engineering</a></td>
+<td>Zigong</td>
+</tr>
+<tr>
+<td><kbd>23</kbd></td>
+<td><a href="https://www.4icu.org/reviews/930.htm">Soochow University</a></td>
+<td>Suzhou</td>
+</tr>
+<tr>
+<td><kbd>156</kbd></td>
+<td><a href="https://www.4icu.org/reviews/919.htm">South China Agricultural University</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>27</kbd></td>
+<td><a href="https://www.4icu.org/reviews/921.htm">South China Normal University</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>12</kbd></td>
+<td><a href="https://www.4icu.org/reviews/922.htm">South China University of Technology</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>62</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15405.htm">South University of Science and Technology of China</a></td>
+<td>Shenzhen</td>
+</tr>
+<tr>
+<td><kbd>132</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12744.htm">South-Central University for Nationalities</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>64</kbd></td>
+<td><a href="https://www.4icu.org/reviews/923.htm">Southeast University</a></td>
+<td>Nanjing</td>
+</tr>
+<tr>
+<td><kbd>148</kbd></td>
+<td><a href="https://www.4icu.org/reviews/690.htm">Southern Medical University</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>435</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12844.htm">Southwest Forestry University</a></td>
+<td>Kunming</td>
+</tr>
+<tr>
+<td><kbd>42</kbd></td>
+<td><a href="https://www.4icu.org/reviews/925.htm">Southwest Jiaotong University</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>736</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12816.htm">Southwest Medical University</a></td>
+<td>Luzhou</td>
+</tr>
+<tr>
+<td><kbd>222</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12814.htm">Southwest Petroleum University</a></td>
+<td>Nanchong</td>
+</tr>
+<tr>
+<td><kbd>86</kbd></td>
+<td><a href="https://www.4icu.org/reviews/924.htm">Southwest University</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>363</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8739.htm">Southwest University for Nationalities</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>361</kbd></td>
+<td><a href="https://www.4icu.org/reviews/928.htm">Southwest University of Political Science and Law</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>133</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8740.htm">Southwest University of Science and Technology</a></td>
+<td>Mianyang</td>
+</tr>
+<tr>
+<td><kbd>93</kbd></td>
+<td><a href="https://www.4icu.org/reviews/927.htm">Southwestern University of Finance and Economics</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>640</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12604.htm">Suihua University</a></td>
+<td>Suihua</td>
+</tr>
+<tr>
+<td><kbd>29</kbd></td>
+<td><a href="https://www.4icu.org/reviews/929.htm">Sun Yat-Sen University</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>740</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15406.htm">Suqian College</a></td>
+<td>Suqian</td>
+</tr>
+<tr>
+<td><kbd>247</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12671.htm">Suzhou University</a></td>
+<td>Suzhou</td>
+</tr>
+<tr>
+<td><kbd>278</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12632.htm">Suzhou University of Science and Technology</a></td>
+<td>Suzhou</td>
+</tr>
+<tr>
+<td><kbd>737</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15407.htm">Taihu University of Wuxi</a></td>
+<td>Wuxi</td>
+</tr>
+<tr>
+<td><kbd>510</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11000.htm">Taishan Medical University</a></td>
+<td>Tai'an</td>
+</tr>
+<tr>
+<td><kbd>741</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12719.htm">Taishan University</a></td>
+<td>Tai'an</td>
+</tr>
+<tr>
+<td><kbd>684</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15408.htm">Taiyuan Institute of Technology</a></td>
+<td>Taiyuan</td>
+</tr>
+<tr>
+<td><kbd>626</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12519.htm">Taiyuan Normal University</a></td>
+<td>Taiyuan</td>
+</tr>
+<tr>
+<td><kbd>818</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12512.htm">Taiyuan University of Science and Technology</a></td>
+<td>Taiyuan</td>
+</tr>
+<tr>
+<td><kbd>118</kbd></td>
+<td><a href="https://www.4icu.org/reviews/931.htm">Taiyuan University of Technology</a></td>
+<td>Taiyuan</td>
+</tr>
+<tr>
+<td><kbd>268</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8765.htm">TaiZhou University</a></td>
+<td>Linhai</td>
+</tr>
+<tr>
+<td><kbd>628</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12508.htm">Tangshan College</a></td>
+<td>Tangshan</td>
+</tr>
+<tr>
+<td><kbd>468</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12501.htm">Tangshan Normal University</a></td>
+<td>Tangshan</td>
+</tr>
+<tr>
+<td><kbd>Un</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12892.htm">Tarim University</a></td>
+<td>Alar</td>
+</tr>
+<tr>
+<td><kbd>615</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12479.htm">The Central Academy of Drama</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>277</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12480.htm">The National Academy of Chinese Theatre Arts</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>90</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12642.htm">The University of Nottingham Ningbo, China</a></td>
+<td>Ningbo</td>
+</tr>
+<tr>
+<td><kbd>327</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12489.htm">Tianjin Academy of Fine Arts</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>488</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12485.htm">Tianjin Agricultural University</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>507</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12484.htm">Tianjin Chengjian University</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>403</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12488.htm">Tianjin Conservatory of Music</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>317</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8745.htm">Tianjin Foreign Studies University</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>259</kbd></td>
+<td><a href="https://www.4icu.org/reviews/932.htm">Tianjin Medical University</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>237</kbd></td>
+<td><a href="https://www.4icu.org/reviews/933.htm">Tianjin Normal University</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>184</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8746.htm">Tianjin Polytechnic University</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>725</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12483.htm">Tianjin Tianshi College</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>18</kbd></td>
+<td><a href="https://www.4icu.org/reviews/935.htm">Tianjin University</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>200</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8747.htm">Tianjin University of Commerce</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>240</kbd></td>
+<td><a href="https://www.4icu.org/reviews/937.htm">Tianjin University of Finance and Economics</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>226</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12482.htm">Tianjin University of Science and Technology</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>785</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12487.htm">Tianjin University of Sport</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>229</kbd></td>
+<td><a href="https://www.4icu.org/reviews/938.htm">Tianjin University of Technology</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>409</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12486.htm">Tianjin University of Technology and Education</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>398</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11874.htm">Tianjin University of Traditional Chinese Medicine</a></td>
+<td>Tianjin</td>
+</tr>
+<tr>
+<td><kbd>571</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8597.htm">Tianshui Normal University</a></td>
+<td>Tianshui</td>
+</tr>
+<tr>
+<td><kbd>422</kbd></td>
+<td><a href="https://www.4icu.org/reviews/939.htm">Tibet University</a></td>
+<td>Lhasa</td>
+</tr>
+<tr>
+<td><kbd>760</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12854.htm">Tibetan Traditional Medical College</a></td>
+<td>Lhasa</td>
+</tr>
+<tr>
+<td><kbd>666</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12581.htm">Tonghua Normal University</a></td>
+<td>Zunhua</td>
+</tr>
+<tr>
+<td><kbd>8</kbd></td>
+<td><a href="https://www.4icu.org/reviews/941.htm">Tongji University</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>478</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12670.htm">Tongling University</a></td>
+<td>Tongling</td>
+</tr>
+<tr>
+<td><kbd>723</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12839.htm">Tongren University</a></td>
+<td>Tongren</td>
+</tr>
+<tr>
+<td><kbd>7</kbd></td>
+<td><a href="https://www.4icu.org/reviews/942.htm">Tsinghua University</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>147</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15307.htm">United International College</a></td>
+<td>Zhuhai</td>
+</tr>
+<tr>
+<td><kbd>60</kbd></td>
+<td><a href="https://www.4icu.org/reviews/943.htm">University of Electronic Science and Technology of China</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>98</kbd></td>
+<td><a href="https://www.4icu.org/reviews/814.htm">University of International Business and Economics</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>321</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12481.htm">University of International Relations</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>174</kbd></td>
+<td><a href="https://www.4icu.org/reviews/10138.htm">University of Jinan</a></td>
+<td>Jinan</td>
+</tr>
+<tr>
+<td><kbd>97</kbd></td>
+<td><a href="https://www.4icu.org/reviews/947.htm">University of Science and Technology Beijing</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>667</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8692.htm">University of Science and Technology Liaoning</a></td>
+<td>Anshan</td>
+</tr>
+<tr>
+<td><kbd>4</kbd></td>
+<td><a href="https://www.4icu.org/reviews/948.htm">University of Science and Technology of China</a></td>
+<td>Hefei</td>
+</tr>
+<tr>
+<td><kbd>57</kbd></td>
+<td><a href="https://www.4icu.org/reviews/902.htm">University of Shanghai for Science and Technology</a></td>
+<td>Shanghai</td>
+</tr>
+<tr>
+<td><kbd>444</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8666.htm">University of South China</a></td>
+<td>Hengyang</td>
+</tr>
+<tr>
+<td><kbd>17</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11870.htm">University of the Chinese Academy of Sciences</a></td>
+<td>Beijing</td>
+</tr>
+<tr>
+<td><kbd>429</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12658.htm">Wannan Medical College</a></td>
+<td>Wuhu</td>
+</tr>
+<tr>
+<td><kbd>411</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12703.htm">Weifang Medical University</a></td>
+<td>Weifang</td>
+</tr>
+<tr>
+<td><kbd>449</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8722.htm">Weifang University</a></td>
+<td>Weifang</td>
+</tr>
+<tr>
+<td><kbd>601</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12700.htm">Weifang University of Science and Technology</a></td>
+<td>Shouguang</td>
+</tr>
+<tr>
+<td><kbd>494</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12867.htm">Weinan Normal University</a></td>
+<td>Weinan</td>
+</tr>
+<tr>
+<td><kbd>656</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15409.htm">Wenhua University</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>611</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12852.htm">Wenshan University</a></td>
+<td>Wenshan</td>
+</tr>
+<tr>
+<td><kbd>297</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12647.htm">Wenzhou Medical University</a></td>
+<td>Wenzhou</td>
+</tr>
+<tr>
+<td><kbd>191</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8766.htm">Wenzhou University</a></td>
+<td>Wenzhou</td>
+</tr>
+<tr>
+<td><kbd>763</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15410.htm">Wenzhou-Kean University</a></td>
+<td>Wenzhou</td>
+</tr>
+<tr>
+<td><kbd>502</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8567.htm">West Anhui University</a></td>
+<td>Lu'an</td>
+</tr>
+<tr>
+<td><kbd>508</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15411.htm">Wuchang Institute of Technology</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>717</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15412.htm">Wuchang University of Technology</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>804</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15413.htm">Wuhan Business University</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>438</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12757.htm">Wuhan Conservatory of Music</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>788</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15414.htm">Wuhan Donghu University</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>574</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12760.htm">Wuhan Institute of Bioengineering</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>396</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12755.htm">Wuhan Institute of Physical Education</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>370</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12746.htm">Wuhan Institute of Technology</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>397</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8649.htm">Wuhan Polytechnic University</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>843</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15415.htm">Wuhan Technology and Business University</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>384</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12747.htm">Wuhan Textile University</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>9</kbd></td>
+<td><a href="https://www.4icu.org/reviews/954.htm">Wuhan University</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>822</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15416.htm">Wuhan University of Engineering Science</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>161</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8650.htm">Wuhan University of Science and Technology</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>38</kbd></td>
+<td><a href="https://www.4icu.org/reviews/956.htm">Wuhan University of Technology</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>714</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12681.htm">Wuyi University</a></td>
+<td>Wuyishan</td>
+</tr>
+<tr>
+<td><kbd>271</kbd></td>
+<td><a href="https://www.4icu.org/reviews/958.htm">Wuyi University, Guangdong</a></td>
+<td>Jiangmen</td>
+</tr>
+<tr>
+<td><kbd>658</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12803.htm">Wuzhou University</a></td>
+<td>Wuzhou</td>
+</tr>
+<tr>
+<td><kbd>13</kbd></td>
+<td><a href="https://www.4icu.org/reviews/964.htm">Xiamen University</a></td>
+<td>Xiamen</td>
+</tr>
+<tr>
+<td><kbd>338</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12676.htm">Xiamen University of Technology</a></td>
+<td>Xiamen</td>
+</tr>
+<tr>
+<td><kbd>381</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12872.htm">Xi'an Academy of Fine Arts</a></td>
+<td>Xi&#146;an</td>
+</tr>
+<tr>
+<td><kbd>709</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15417.htm">Xi'an Aeronautical University</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>529</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12873.htm">Xi'an Conservatory of Music</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>270</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12879.htm">Xi'an Eurasia University</a></td>
+<td>Xi&#146;an</td>
+</tr>
+<tr>
+<td><kbd>580</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12874.htm">Xi'an Fanyi University</a></td>
+<td>Xi&#146;an</td>
+</tr>
+<tr>
+<td><kbd>266</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8704.htm">Xi'an International Studies University</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>474</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12880.htm">Xi'an International University</a></td>
+<td>Xi&#146;an</td>
+</tr>
+<tr>
+<td><kbd>10</kbd></td>
+<td><a href="https://www.4icu.org/reviews/960.htm">Xi'an Jiaotong University</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>124</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12619.htm">Xi'an Jiaotong-Liverpool University</a></td>
+<td>Suzhou</td>
+</tr>
+<tr>
+<td><kbd>509</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8709.htm">Xi'an Peihua University</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>514</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12871.htm">Xi'an Physical Education University</a></td>
+<td>Xi&#146;an</td>
+</tr>
+<tr>
+<td><kbd>570</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12858.htm">Xi'an Polytechnic University</a></td>
+<td>Xi&#146;an</td>
+</tr>
+<tr>
+<td><kbd>434</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12857.htm">Xi'an Shiyou University</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>592</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8711.htm">Xi'an Siyuan University</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>791</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12859.htm">Xi'an Technological University</a></td>
+<td>Xi&#146;an</td>
+</tr>
+<tr>
+<td><kbd>450</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12875.htm">Xi'an University</a></td>
+<td>Xi&#146;an</td>
+</tr>
+<tr>
+<td><kbd>182</kbd></td>
+<td><a href="https://www.4icu.org/reviews/961.htm">Xi'an University of Architecture and Technology</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>538</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8713.htm">Xi'an University of Finance and Economics</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>710</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12863.htm">Xi'an University of Posts and Telecommunications</a></td>
+<td>Xi&#146;an</td>
+</tr>
+<tr>
+<td><kbd>225</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8712.htm">Xi'an University of Science and Technology</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>217</kbd></td>
+<td><a href="https://www.4icu.org/reviews/963.htm">Xi'an University of Technology</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>536</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8668.htm">Xiangnan University</a></td>
+<td>Chenzhou</td>
+</tr>
+<tr>
+<td><kbd>107</kbd></td>
+<td><a href="https://www.4icu.org/reviews/966.htm">XiangTan University</a></td>
+<td>Xiangtan</td>
+</tr>
+<tr>
+<td><kbd>639</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12868.htm">Xianyang Normal University</a></td>
+<td>Xianyang</td>
+</tr>
+<tr>
+<td><kbd>849</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12826.htm">Xichang College</a></td>
+<td>Xichang</td>
+</tr>
+<tr>
+<td><kbd>34</kbd></td>
+<td><a href="https://www.4icu.org/reviews/962.htm">Xidian University</a></td>
+<td>Xi'an</td>
+</tr>
+<tr>
+<td><kbd>319</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8742.htm">Xihua University</a></td>
+<td>Chengdu</td>
+</tr>
+<tr>
+<td><kbd>661</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12878.htm">Xijing University</a></td>
+<td>Xi&#146;an</td>
+</tr>
+<tr>
+<td><kbd>773</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12787.htm">Xinghai Conservatory of Music</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>495</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8620.htm">Xingtai University</a></td>
+<td>Xingtai</td>
+</tr>
+<tr>
+<td><kbd>815</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12831.htm">Xingyi Normal University for Nationalities</a></td>
+<td>Xingyi</td>
+</tr>
+<tr>
+<td><kbd>418</kbd></td>
+<td><a href="https://www.4icu.org/reviews/969.htm">Xinjiang Agricultural University</a></td>
+<td>Urumqi</td>
+</tr>
+<tr>
+<td><kbd>608</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12896.htm">Xinjiang Arts University</a></td>
+<td>Urumqi</td>
+</tr>
+<tr>
+<td><kbd>633</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8754.htm">Xinjiang Medical University</a></td>
+<td>Urumqi</td>
+</tr>
+<tr>
+<td><kbd>428</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8752.htm">Xinjiang Normal University</a></td>
+<td>Urumqi</td>
+</tr>
+<tr>
+<td><kbd>180</kbd></td>
+<td><a href="https://www.4icu.org/reviews/968.htm">Xinjiang University</a></td>
+<td>Urumqi</td>
+</tr>
+<tr>
+<td><kbd>821</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12893.htm">Xinjiang University of Finance and Economics</a></td>
+<td>Urumqi</td>
+</tr>
+<tr>
+<td><kbd>545</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12733.htm">Xinxiang Medical University</a></td>
+<td>Xinxiang</td>
+</tr>
+<tr>
+<td><kbd>645</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12741.htm">Xinxiang University</a></td>
+<td>Xinxiang</td>
+</tr>
+<tr>
+<td><kbd>745</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15418.htm">Xinyang Agriculture and Forestry University</a></td>
+<td>Xinyang</td>
+</tr>
+<tr>
+<td><kbd>172</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12734.htm">Xinyang Normal University</a></td>
+<td>Xinyang</td>
+</tr>
+<tr>
+<td><kbd>755</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15419.htm">Xinyu University</a></td>
+<td>Xinyu</td>
+</tr>
+<tr>
+<td><kbd>573</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12518.htm">Xinzhou Teachers University</a></td>
+<td>Xinzhou</td>
+</tr>
+<tr>
+<td><kbd>599</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12855.htm">Xizang Minzu University</a></td>
+<td>Xianyang</td>
+</tr>
+<tr>
+<td><kbd>483</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8638.htm">Xuchang University</a></td>
+<td>Xuchang</td>
+</tr>
+<tr>
+<td><kbd>446</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12621.htm">Xuzhou Institute of Technology</a></td>
+<td>Xuzhou</td>
+</tr>
+<tr>
+<td><kbd>406</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12627.htm">Xuzhou Medical College</a></td>
+<td>Xuzhou</td>
+</tr>
+<tr>
+<td><kbd>490</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12856.htm">Yan'an University</a></td>
+<td>Yanan</td>
+</tr>
+<tr>
+<td><kbd>192</kbd></td>
+<td><a href="https://www.4icu.org/reviews/973.htm">Yanbian University</a></td>
+<td>Yanji</td>
+</tr>
+<tr>
+<td><kbd>663</kbd></td>
+<td><a href="https://www.4icu.org/reviews/974.htm">Yanbian University of Science and Technology</a></td>
+<td>Yanji</td>
+</tr>
+<tr>
+<td><kbd>421</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12624.htm">Yancheng Institute of Technology</a></td>
+<td>Yancheng</td>
+</tr>
+<tr>
+<td><kbd>405</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12631.htm">Yancheng Teachers University</a></td>
+<td>Yancheng</td>
+</tr>
+<tr>
+<td><kbd>629</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8593.htm">Yang-En University</a></td>
+<td>Quanzhou</td>
+</tr>
+<tr>
+<td><kbd>512</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12808.htm">Yangtze Normal University</a></td>
+<td>Chongqing</td>
+</tr>
+<tr>
+<td><kbd>159</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12745.htm">Yangtze University</a></td>
+<td>Jingzhou</td>
+</tr>
+<tr>
+<td><kbd>104</kbd></td>
+<td><a href="https://www.4icu.org/reviews/975.htm">Yangzhou University</a></td>
+<td>Yangzhou</td>
+</tr>
+<tr>
+<td><kbd>140</kbd></td>
+<td><a href="https://www.4icu.org/reviews/972.htm">Yanshan University</a></td>
+<td>Qinhuangdao</td>
+</tr>
+<tr>
+<td><kbd>617</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12713.htm">Yantai Nanshan University</a></td>
+<td>Yantai</td>
+</tr>
+<tr>
+<td><kbd>296</kbd></td>
+<td><a href="https://www.4icu.org/reviews/977.htm">Yantai University</a></td>
+<td>Yantai</td>
+</tr>
+<tr>
+<td><kbd>559</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8743.htm">Yibin University</a></td>
+<td>Yibin</td>
+</tr>
+<tr>
+<td><kbd>812</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8685.htm">Yichun University</a></td>
+<td>Yichun</td>
+</tr>
+<tr>
+<td><kbd>579</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12895.htm">Yili Normal University</a></td>
+<td>Yining</td>
+</tr>
+<tr>
+<td><kbd>654</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15420.htm">Yinchuan Energy Institute</a></td>
+<td>Yinchuan</td>
+</tr>
+<tr>
+<td><kbd>829</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15421.htm">Yingkou Institute of Technology</a></td>
+<td>Yingkou</td>
+</tr>
+<tr>
+<td><kbd>834</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12792.htm">Youjiang Medical University for Nationalities</a></td>
+<td>Baise</td>
+</tr>
+<tr>
+<td><kbd>749</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12796.htm">Yulin Normal University</a></td>
+<td>Yulin</td>
+</tr>
+<tr>
+<td><kbd>784</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12869.htm">Yulin University</a></td>
+<td>Yulin</td>
+</tr>
+<tr>
+<td><kbd>550</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12517.htm">Yuncheng University</a></td>
+<td>Yuncheng</td>
+</tr>
+<tr>
+<td><kbd>244</kbd></td>
+<td><a href="https://www.4icu.org/reviews/978.htm">Yunnan Agricultural University</a></td>
+<td>Kunming</td>
+</tr>
+<tr>
+<td><kbd>258</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12850.htm">Yunnan Arts University</a></td>
+<td>Kunming</td>
+</tr>
+<tr>
+<td><kbd>850</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15422.htm">Yunnan College of Business Management</a></td>
+<td>Kunming</td>
+</tr>
+<tr>
+<td><kbd>387</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12843.htm">Yunnan Minzu University</a></td>
+<td>Kunming</td>
+</tr>
+<tr>
+<td><kbd>245</kbd></td>
+<td><a href="https://www.4icu.org/reviews/979.htm">Yunnan Normal University</a></td>
+<td>Kunming</td>
+</tr>
+<tr>
+<td><kbd>265</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15423.htm">Yunnan Technology and Business University</a></td>
+<td>Kunming</td>
+</tr>
+<tr>
+<td><kbd>82</kbd></td>
+<td><a href="https://www.4icu.org/reviews/980.htm">Yunnan University</a></td>
+<td>Kunming</td>
+</tr>
+<tr>
+<td><kbd>820</kbd></td>
+<td><a href="https://www.4icu.org/reviews/11880.htm">Yunnan University of Finance and Economics</a></td>
+<td>Kunming</td>
+</tr>
+<tr>
+<td><kbd>548</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12846.htm">Yunnan University of Traditional Chinese Medicine</a></td>
+<td>Kunming</td>
+</tr>
+<tr>
+<td><kbd>724</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12848.htm">Yuxi Normal University</a></td>
+<td>Yuxi</td>
+</tr>
+<tr>
+<td><kbd>564</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12716.htm">Zaozhuang University</a></td>
+<td>Zaozhuang</td>
+</tr>
+<tr>
+<td><kbd>826</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15424.htm">Zhangjiakou University</a></td>
+<td>Zhangjiakou</td>
+</tr>
+<tr>
+<td><kbd>530</kbd></td>
+<td><a href="https://www.4icu.org/reviews/967.htm">Zhaoqing University</a></td>
+<td>Zhaoqing</td>
+</tr>
+<tr>
+<td><kbd>831</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15425.htm">Zhaotong University</a></td>
+<td>Zhaotong</td>
+</tr>
+<tr>
+<td><kbd>650</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12638.htm">Zhejiang Chinese Medical University</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>178</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12646.htm">Zhejiang Forestry University</a></td>
+<td>Lin'an</td>
+</tr>
+<tr>
+<td><kbd>383</kbd></td>
+<td><a href="https://www.4icu.org/reviews/778.htm">Zhejiang Gongshang University</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>701</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15426.htm">Zhejiang International Studies University</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>106</kbd></td>
+<td><a href="https://www.4icu.org/reviews/982.htm">Zhejiang Normal University</a></td>
+<td>Jinhua</td>
+</tr>
+<tr>
+<td><kbd>565</kbd></td>
+<td><a href="https://www.4icu.org/reviews/981.htm">Zhejiang Ocean University</a></td>
+<td>Zhoushan</td>
+</tr>
+<tr>
+<td><kbd>128</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12637.htm">Zhejiang Sci-Tech University</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>593</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12652.htm">Zhejiang Shuren University</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>6</kbd></td>
+<td><a href="https://www.4icu.org/reviews/983.htm">Zhejiang University</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>164</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12650.htm">Zhejiang University of Finance and Economics</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>232</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12649.htm">Zhejiang University of Media and Communications</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>280</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12645.htm">Zhejiang University of Science and Technology</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>83</kbd></td>
+<td><a href="https://www.4icu.org/reviews/984.htm">Zhejiang University of Technology</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>770</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15427.htm">Zhejiang University of Water Resources and Electric Power</a></td>
+<td>Hangzhou</td>
+</tr>
+<tr>
+<td><kbd>625</kbd></td>
+<td><a href="https://www.4icu.org/reviews/8771.htm">Zhejiang Wanli University</a></td>
+<td>Ningbo</td>
+</tr>
+<tr>
+<td><kbd>549</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12644.htm">Zhejiang Yuexiu University of Foreign Languages</a></td>
+<td>Shaoxing</td>
+</tr>
+<tr>
+<td><kbd>771</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15428.htm">Zhengzhou Chenggong University of Finance and Economics</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>778</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15429.htm">Zhengzhou Institute of Finance and Economics</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>688</kbd></td>
+<td><a href="https://www.4icu.org/reviews/15430.htm">Zhengzhou Normal University</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>61</kbd></td>
+<td><a href="https://www.4icu.org/reviews/986.htm">Zhengzhou University</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>315</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12726.htm">Zhengzhou University of Aeronautics</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>602</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12722.htm">Zhengzhou University of Industrial Technology</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>469</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12724.htm">Zhengzhou University of Light Industry</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>720</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12777.htm">Zhongkai University of Agriculture and Engineering</a></td>
+<td>Guangzhou</td>
+</tr>
+<tr>
+<td><kbd>52</kbd></td>
+<td><a href="https://www.4icu.org/reviews/989.htm">Zhongnan University of Economics and Law</a></td>
+<td>Wuhan</td>
+</tr>
+<tr>
+<td><kbd>209</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12727.htm">Zhongyuan University of Technology</a></td>
+<td>Zhengzhou</td>
+</tr>
+<tr>
+<td><kbd>546</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12735.htm">Zhoukou Normal University</a></td>
+<td>Zhoukou</td>
+</tr>
+<tr>
+<td><kbd>553</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12829.htm">Zunyi Medical University</a></td>
+<td>Zunyi</td>
+</tr>
+<tr>
+<td><kbd>600</kbd></td>
+<td><a href="https://www.4icu.org/reviews/12835.htm">Zunyi Normal College</a></td>
+<td>Zunyi</td>
+</tr>
+<tr class="small">
+<td colspan="2">Legend: <kbd class="small">Un</kbd> Unranked</td>
+<td><a href="https://www.4icu.org/about/add.htm">Add a University</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="panel panel-default">
+<div class="panel-body"> <div class="text-center" style="min-width:336px;vertical-align: middle">
+<style>
+.ad_slot_2 {width:300px;height:250px}
+@media (min-width:414px) {.ad_slot_2 {width:336px;height:280px}}
+@media (min-width:992px) {.ad_slot_2 {width:970px;height:250px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 4icu.org-Level3_Bottom -->
+<ins class="adsbygoogle ad_slot_2" style="display:inline-block" data-ad-client="ca-pub-2473789519331063" data-ad-slot="3298737036"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+ </div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2>Related resources</h2>
+</div>
+<div class="panel-body">
+<p><a href="https://www.4icu.org/Asia/">List of all Colleges and Universities in Asia by country</a></p>
+<p><a href="https://www.4icu.org/">Search for programs and courses with the uniRank World Universities Search Engine</a></p>
+</div>
+</div>
+</div><div class="container">
+<div class="panel panel-default">
+<div class="panel-body">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+<!-- 4icu.org Links Ads Units --> 
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2473789519331063" data-ad-slot="8114832633" data-ad-format="link"></ins> 
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script> 
+</div>
+</div>
+<br>
+<div class="panel small">
+<div class="panel-body">
+<div class="row">
+<div class="col-sm-6">
+<h4 class="list-group-item-heading">University Rankings</h4>
+<hr>
+<div class="list-group"><a href="https://www.4icu.org/top-universities-world/" class="list-group-item">Top 200 Universities in the World</a><a href="https://www.4icu.org/top-universities-north-america/" class="list-group-item">Top 200 Universities in North America</a> <a href="https://www.4icu.org/top-universities-latin-america/" class="list-group-item">Top 200 Universities in Latin America</a> <a href="https://www.4icu.org/top-universities-europe/" class="list-group-item">Top 200 Universities in Europe</a> <a href="https://www.4icu.org/top-universities-africa/" class="list-group-item">Top 200 Universities in Africa</a> <a href="https://www.4icu.org/top-universities-asia/" class="list-group-item">Top 200 Universities in Asia</a> <a href="https://www.4icu.org/top-universities-oceania/" class="list-group-item">Top 50 Universities in Oceania</a></div>
+<br>
+<h4 class="list-group-item-heading">Universities by Country</h4>
+<hr>
+<div class="list-group"><a href="https://www.4icu.org/North-America/" class="list-group-item">Universities in North America</a> <a href="https://www.4icu.org/Latin-America/" class="list-group-item">Universities in Latin America</a> <a href="https://www.4icu.org/Europe/" class="list-group-item">Universities in Europe</a> <a href="https://www.4icu.org/Africa/" class="list-group-item">Universities in Africa</a> <a href="https://www.4icu.org/Asia/" class="list-group-item">Universities in Asia</a> <a href="https://www.4icu.org/Oceania/" class="list-group-item">Universities in Oceania</a></div>
+</div>
+<div class="col-sm-6">
+<h4 class="list-group-item-heading">Online Courses</h4>
+<hr>
+<div class="list-group"><a href="https://www.4icu.org/opencourseware/" class="list-group-item">Open Education Consortium Universities</a> <a href="https://www.4icu.org/itunesu/" class="list-group-item">iTunes U Universities</a></div>
+<br>
+<h4 class="list-group-item-heading">Universities on Social Media</h4>
+<hr>
+<div class="list-group"><a href="https://www.4icu.org/facebook/" class="list-group-item">Universities on Facebook </a><a href="https://www.4icu.org/twitter/" class="list-group-item">Universities on Twitter </a><a href="https://www.4icu.org/linkedin/" class="list-group-item">Universities on Linkedin </a><a href="https://www.4icu.org/flickr/" class="list-group-item">Universities on Flickr / Instagram </a><a href="https://www.4icu.org/youtube/" class="list-group-item">Universities on Youtube / Vimeo</a></div>
+<br>
+<h4 class="list-group-item-heading">Other Higher Education Lists</h4>
+<hr>
+<div class="list-group"><a href="https://www.4icu.org/institutions/" class="list-group-item">Higher Education-related Organizations</a> <a href="https://www.4icu.org/religious/" class="list-group-item">Religiously Affiliated Universities</a> <a href="https://www.4icu.org/reviews/index2.htm" class="list-group-item">A-Z List of World Universities</a></div>
+</div>
+</div>
+<br>
+<div class="row text-center lead">
+<div class="col-sm-3">Follow Us <span class="hidden-xs">&#9658;</span></div>
+<div class="col-sm-3"><a href="https://twitter.com/unirankorg">Twitter</a><br></div>
+<div class="col-sm-3"><a href="https://www.facebook.com/unirank.org">Facebook</a><br></div>
+<div class="col-sm-3"><a href="https://plus.google.com/+4icuOrg">Google+</a></div>
+</div>
+</div>
+<div class="panel-footer">
+<div class="row">
+<div class="col-xs-10">
+<p><a href="https://www.4icu.org/about/" rel="nofollow">About</a> | <a href="https://www.4icu.org/contact/" rel="nofollow">Contact</a> | <a href="https://www.4icu.org/search/" rel="nofollow">Search</a> | <a href="https://www.4icu.org/privacy/" rel="nofollow">Privacy</a> | <a href="https://www.4icu.org/advertise/" rel="nofollow">Advertise</a></p>
+</div>
+<div class="col-xs-2">
+<p class="text-right"><a href="https://www.4icu.org/cn/chinese-universities.htm#top" rel="nofollow">Top<span class="dropup"><span class="caret"></span></span></a></p>
+</div>
+</div>
+<div class="row text-center">
+<p><b>&copy; 2005-2018 uniRank <sup>TM</sup></b><br><br>We use third-party cookies to personalize content and improve your experience. By visiting this site, you accept our terms, privacy and cookie policy. <a href="https://www.4icu.org/privacy/" rel="nofollow">More info</a></p>
+</div>
+</div>
+</div>
+</div>
+<script async src="https://www.4icu.org/_js/bootstrap-native.min.js"></script>
+</body>
+</html>
